@@ -25,7 +25,7 @@ import MedKitCore
 
 public struct CameraV1ReadProfile: CameraV1Method {
 
-    public typealias Reply = CameraV1Profile
+    public typealias Reply = CameraProfileV1
 
     // MARK: - Properties
     public var type: CameraV1MethodType { return .readProfile }

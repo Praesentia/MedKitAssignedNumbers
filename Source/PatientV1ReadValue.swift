@@ -23,57 +23,36 @@ import Foundation
 import MedKitCore
 
 
-/**
- Measurement
- */
-public struct MeasurementV1<T: Codable>: Codable {
+public struct PatientV1ReadValue: LocationV1Method {
 
-    public typealias Value = T
+    public typealias Reply = UpdateV1<PatientInfoV1?>
 
     // MARK: - Properties
-    public var value : Value    //: Measurement value.
-    public var units : UnitType //: Measurement units.
-    public var time  : Time     //: Time at which the measurement was performed.
+    public var type: LocationV1MethodType { return .readValue }
 
     // MARK: - Private
-    private enum CodingKeys: CodingKey {
-        case value
-        case units
-        case time
-    }
+    private typealias CodingKeys = MethodV1CodingKeys
 
     // MARK: - Initializers
 
-    public init(value: Value, units: UnitType, time: Time)
+    public init()
     {
-        self.value = value
-        self.units = units
-        self.time  = time
     }
 
     // MARK: - Codable
 
     public init(from decoder: Decoder) throws
     {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-
-        value = try container.decode(Value.self,    forKey: .value)
-        units = try container.decode(UnitType.self, forKey: .units)
-        time  = try container.decode(Time.self,     forKey: .time)
+        let _ = try decoder.container(keyedBy: CodingKeys.self)
     }
 
     public func encode(to encoder: Encoder) throws
     {
         var container = encoder.container(keyedBy: CodingKeys.self)
-
-        try container.encode(value, forKey: .value)
-        try container.encode(units, forKey: .units)
-        try container.encode(time,  forKey: .time)
+        try container.encode(type, forKey: .type)
     }
 
 }
 
 
 // End of File
-
-

@@ -25,11 +25,11 @@ import MedKitCore
 
 public struct PatientV1DidUpdate: PatientV1Notification {
 
-    public typealias Args = PatientInfoV1
+    public typealias Args = UpdateV1<PatientInfoV1?>
 
     // MARK: - Properties
     public var type : PatientV1NotificationType { return .didUpdate }
-    public let args : PatientInfoV1
+    public let args : Args
 
     // MARK: - Private
     private typealias CodingKeys = NotificationV1CodingKeys

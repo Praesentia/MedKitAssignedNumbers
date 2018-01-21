@@ -20,12 +20,64 @@
 
 
 import Foundation
-import MedKitCore
 
 
-public extension UnitType {
+/**
+ Unit type.
+ */
+public class UnitType: Codable {
 
     // MARK: - Properties
+
+    /**
+     Unit type identifier.
+     */
+    public let identifier: UUID
+
+    // MARK: - Initializers
+
+    /**
+     Initialize instance.
+     */
+    public init()
+    {
+        self.identifier = UUID.null
+    }
+
+    /**
+     Initialize instance.
+
+     Initializes the UnitType from the resource identifier.
+
+     - Parameters:
+     - identifier: The unit type identifier.
+     */
+    public init(withIdentifier identifier: UUID)
+    {
+        self.identifier = identifier
+    }
+
+    // MARK: - Codable
+
+    required public init(from decoder: Decoder) throws
+    {
+        let container = try decoder.singleValueContainer()
+        identifier = try container.decode(UUID.self)
+    }
+
+    public func encode(to encoder: Encoder) throws
+    {
+        var container = encoder.singleValueContainer()
+        try container.encode(identifier)
+    }
+
+}
+
+extension UnitType: Equatable, Hashable {
+
+    // MARK: - Properties
+
+    public var hashValue: Int { return identifier.hashValue }
 
     /**
      Localized abbreviation for the unit type.
@@ -36,6 +88,11 @@ public extension UnitType {
      Localized description for the unit type.
      */
     public var localizedDescription: String { return UnitType.localizedDescriptions[identifier] ?? identifier.uuidstring }
+
+    public static func ==(lhs: UnitType, rhs: UnitType) -> Bool
+    {
+        return lhs.identifier == rhs.identifier
+    }
 
     // MARK: - Private Properties
 

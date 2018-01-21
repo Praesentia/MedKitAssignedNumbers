@@ -25,7 +25,7 @@ import MedKitCore
 
 public struct LocationV1DidUpdate: LocationV1Notification {
 
-    public typealias Args = LocationV1
+    public typealias Args = UpdateV1<LocationV1>
 
     // MARK: - Properties
     public var type : LocationV1NotificationType { return .didUpdate }

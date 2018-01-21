@@ -25,7 +25,7 @@ import MedKitCore
 
 public struct LocationV1ReadValue: LocationV1Method {
 
-    public typealias Reply = LocationV1
+    public typealias Reply = UpdateV1<LocationV1>
 
     // MARK: - Properties
     public var type: LocationV1MethodType { return .readValue }

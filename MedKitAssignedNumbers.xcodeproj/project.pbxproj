@@ -10,6 +10,16 @@
 		22343A6120010B980075B62A /* LocationDetailsV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22343A6020010B980075B62A /* LocationDetailsV1.swift */; };
 		22343A6220010B980075B62A /* LocationDetailsV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22343A6020010B980075B62A /* LocationDetailsV1.swift */; };
 		223FB6321FA614900008C944 /* MedKitAssignedNumbers.h in Headers */ = {isa = PBXBuildFile; fileRef = 223FB6301FA614900008C944 /* MedKitAssignedNumbers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2244AE7820138B99006A851C /* PatientV1ReadValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244AE7720138B99006A851C /* PatientV1ReadValue.swift */; };
+		2244AE7920138B9E006A851C /* PatientV1ReadValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244AE7720138B99006A851C /* PatientV1ReadValue.swift */; };
+		2244AE7B20138BAA006A851C /* PatientV1WriteValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244AE7A20138BAA006A851C /* PatientV1WriteValue.swift */; };
+		2244AE7C20138BAE006A851C /* PatientV1WriteValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244AE7A20138BAA006A851C /* PatientV1WriteValue.swift */; };
+		2244AE7E20138BC7006A851C /* PatientV1Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244AE7D20138BC7006A851C /* PatientV1Method.swift */; };
+		2244AE7F20138BC7006A851C /* PatientV1Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244AE7D20138BC7006A851C /* PatientV1Method.swift */; };
+		2244AE8120138BD8006A851C /* PatientV1MethodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244AE8020138BD8006A851C /* PatientV1MethodType.swift */; };
+		2244AE8220138BD8006A851C /* PatientV1MethodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244AE8020138BD8006A851C /* PatientV1MethodType.swift */; };
+		2244AEC72014E0EE006A851C /* PatientProfileV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244AEC62014E0EE006A851C /* PatientProfileV1.swift */; };
+		2244AEC82014E0EE006A851C /* PatientProfileV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244AEC62014E0EE006A851C /* PatientProfileV1.swift */; };
 		2244CD831FBC690100216EB6 /* WaveformV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244CD821FBC690100216EB6 /* WaveformV1.swift */; };
 		2244CD841FBC690100216EB6 /* WaveformV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244CD821FBC690100216EB6 /* WaveformV1.swift */; };
 		2244CD881FBC6B2500216EB6 /* MeasurementV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244CD871FBC6B2500216EB6 /* MeasurementV1.swift */; };
@@ -30,6 +40,8 @@
 		2248B5A61FA6331B00F064A7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2248B5A51FA6331B00F064A7 /* README.md */; };
 		2254FCB41FA7452500ADC90B /* OperationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2254FCB31FA7452500ADC90B /* OperationType.swift */; };
 		2254FCB71FA7452800ADC90B /* OperationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2254FCB31FA7452500ADC90B /* OperationType.swift */; };
+		22AFFFB0200F803E0054B8FF /* UpdateV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AFFFAF200F803E0054B8FF /* UpdateV1.swift */; };
+		22AFFFB1200F803E0054B8FF /* UpdateV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AFFFAF200F803E0054B8FF /* UpdateV1.swift */; };
 		22B1D1012002D22C002A48D5 /* MeasurementV1Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1D1002002D22C002A48D5 /* MeasurementV1Notification.swift */; };
 		22B1D1022002D22C002A48D5 /* MeasurementV1Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1D1002002D22C002A48D5 /* MeasurementV1Notification.swift */; };
 		22B1D1042002D78A002A48D5 /* MeasurementV1DidUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1D1032002D78A002A48D5 /* MeasurementV1DidUpdate.swift */; };
@@ -92,8 +104,8 @@
 		22B4C27A200B89C600A5C9EC /* LocationV1ReadValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C278200B89C600A5C9EC /* LocationV1ReadValue.swift */; };
 		22B4C27C200B8AA400A5C9EC /* LocationV1WriteValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C27B200B8AA400A5C9EC /* LocationV1WriteValue.swift */; };
 		22B4C27D200B8AA400A5C9EC /* LocationV1WriteValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C27B200B8AA400A5C9EC /* LocationV1WriteValue.swift */; };
-		22B4C280200B8BB900A5C9EC /* CameraV1Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C27F200B8BB900A5C9EC /* CameraV1Profile.swift */; };
-		22B4C281200B8BB900A5C9EC /* CameraV1Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C27F200B8BB900A5C9EC /* CameraV1Profile.swift */; };
+		22B4C280200B8BB900A5C9EC /* CameraProfileV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C27F200B8BB900A5C9EC /* CameraProfileV1.swift */; };
+		22B4C281200B8BB900A5C9EC /* CameraProfileV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C27F200B8BB900A5C9EC /* CameraProfileV1.swift */; };
 		22B4C285200B8CCB00A5C9EC /* CameraV1Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C284200B8CCB00A5C9EC /* CameraV1Method.swift */; };
 		22B4C286200B8CCB00A5C9EC /* CameraV1Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C284200B8CCB00A5C9EC /* CameraV1Method.swift */; };
 		22B4C288200B8CE800A5C9EC /* CameraV1MethodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C287200B8CE800A5C9EC /* CameraV1MethodType.swift */; };
@@ -156,6 +168,11 @@
 		223FB62D1FA614900008C944 /* MedKitAssignedNumbers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MedKitAssignedNumbers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		223FB6301FA614900008C944 /* MedKitAssignedNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedKitAssignedNumbers.h; sourceTree = "<group>"; };
 		223FB6311FA614900008C944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2244AE7720138B99006A851C /* PatientV1ReadValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientV1ReadValue.swift; sourceTree = "<group>"; };
+		2244AE7A20138BAA006A851C /* PatientV1WriteValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientV1WriteValue.swift; sourceTree = "<group>"; };
+		2244AE7D20138BC7006A851C /* PatientV1Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientV1Method.swift; sourceTree = "<group>"; };
+		2244AE8020138BD8006A851C /* PatientV1MethodType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientV1MethodType.swift; sourceTree = "<group>"; };
+		2244AEC62014E0EE006A851C /* PatientProfileV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientProfileV1.swift; sourceTree = "<group>"; };
 		2244CD821FBC690100216EB6 /* WaveformV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformV1.swift; sourceTree = "<group>"; };
 		2244CD871FBC6B2500216EB6 /* MeasurementV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementV1.swift; sourceTree = "<group>"; };
 		2248B4E61FA6154100F064A7 /* MedKitCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MedKitCore.xcodeproj; path = ../MedKitCore-Swift/MedKitCore.xcodeproj; sourceTree = "<group>"; };
@@ -171,6 +188,7 @@
 		2248B5A31FA6331100F064A7 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = SOURCE_ROOT; };
 		2248B5A51FA6331B00F064A7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		2254FCB31FA7452500ADC90B /* OperationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationType.swift; sourceTree = "<group>"; };
+		22AFFFAF200F803E0054B8FF /* UpdateV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateV1.swift; sourceTree = "<group>"; };
 		22B1D1002002D22C002A48D5 /* MeasurementV1Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementV1Notification.swift; sourceTree = "<group>"; };
 		22B1D1032002D78A002A48D5 /* MeasurementV1DidUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementV1DidUpdate.swift; sourceTree = "<group>"; };
 		22B4AEB2200CC96300F307BB /* WaveformIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformIndex.swift; sourceTree = "<group>"; };
@@ -202,7 +220,7 @@
 		22B4C275200B894400A5C9EC /* MethodV1CodingKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodV1CodingKeys.swift; sourceTree = "<group>"; };
 		22B4C278200B89C600A5C9EC /* LocationV1ReadValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationV1ReadValue.swift; sourceTree = "<group>"; };
 		22B4C27B200B8AA400A5C9EC /* LocationV1WriteValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationV1WriteValue.swift; sourceTree = "<group>"; };
-		22B4C27F200B8BB900A5C9EC /* CameraV1Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraV1Profile.swift; sourceTree = "<group>"; };
+		22B4C27F200B8BB900A5C9EC /* CameraProfileV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraProfileV1.swift; sourceTree = "<group>"; };
 		22B4C284200B8CCB00A5C9EC /* CameraV1Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraV1Method.swift; sourceTree = "<group>"; };
 		22B4C287200B8CE800A5C9EC /* CameraV1MethodType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraV1MethodType.swift; sourceTree = "<group>"; };
 		22B4C28A200B8D3B00A5C9EC /* CameraV1ReadProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraV1ReadProfile.swift; sourceTree = "<group>"; };
@@ -261,11 +279,33 @@
 		223FB6531FA614C60008C944 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				22AFFF86200E5DE40054B8FF /* Structures */,
 				22B4C219200935C500A5C9EC /* Types */,
 				22A152491FB77E9D006802D0 /* Resource Protocols */,
 			);
 			path = Source;
 			sourceTree = SOURCE_ROOT;
+		};
+		2244AE7320138B58006A851C /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				2244AE7D20138BC7006A851C /* PatientV1Method.swift */,
+				2244AE8020138BD8006A851C /* PatientV1MethodType.swift */,
+				2244AE7720138B99006A851C /* PatientV1ReadValue.swift */,
+				2244AE7A20138BAA006A851C /* PatientV1WriteValue.swift */,
+			);
+			name = Methods;
+			sourceTree = "<group>";
+		};
+		2244AE7620138B5E006A851C /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				22B4C21A200935FD00A5C9EC /* PatientV1Notification.swift */,
+				22B4C249200A416B00A5C9EC /* PatientV1NotificationType.swift */,
+				22B4C21D2009363B00A5C9EC /* PatientV1DidUpdate.swift */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
 		};
 		2248B4E71FA6154100F064A7 /* Products */ = {
 			isa = PBXGroup;
@@ -300,7 +340,8 @@
 		22A152491FB77E9D006802D0 /* Resource Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				22B4C293200B8F3A00A5C9EC /* Shared */,
+				22B4C275200B894400A5C9EC /* MethodV1CodingKeys.swift */,
+				22B4C246200A404A00A5C9EC /* NotificationV1CodingKeys.swift */,
 				22B4C218200935AB00A5C9EC /* BloodPressureProtocolV1 */,
 				22B4C269200B884700A5C9EC /* CameraProtocolV1 */,
 				22B4C2172009359900A5C9EC /* LocationProtocolV1 */,
@@ -309,6 +350,24 @@
 				22B4C20D2009340B00A5C9EC /* WaveformProtocolV1 */,
 			);
 			name = "Resource Protocols";
+			sourceTree = "<group>";
+		};
+		22AFFF86200E5DE40054B8FF /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				22B4C28E200B8E9E00A5C9EC /* BloodPressureValueV1.swift */,
+				22B4C27F200B8BB900A5C9EC /* CameraProfileV1.swift */,
+				22B4C226200936DA00A5C9EC /* ImageV1.swift */,
+				22E8E8881FDAA96C00FB937F /* LocationV1.swift */,
+				22343A6020010B980075B62A /* LocationDetailsV1.swift */,
+				2244CD871FBC6B2500216EB6 /* MeasurementV1.swift */,
+				22B4C223200936BC00A5C9EC /* NameV1.swift */,
+				22B4C2202009368800A5C9EC /* PatientInfoV1.swift */,
+				2244AEC62014E0EE006A851C /* PatientProfileV1.swift */,
+				22AFFFAF200F803E0054B8FF /* UpdateV1.swift */,
+				2244CD821FBC690100216EB6 /* WaveformV1.swift */,
+			);
+			name = Structures;
 			sourceTree = "<group>";
 		};
 		22B1D0FD2002D1FF002A48D5 /* MeasurementProtocolV1 */ = {
@@ -329,7 +388,6 @@
 				22B4C2102009343300A5C9EC /* WaveformV1Notification.swift */,
 				22B4C240200A3F6700A5C9EC /* WaveformV1NotificationType.swift */,
 				22B4C2132009345D00A5C9EC /* WaveformV1DidUpdate.swift */,
-				2244CD821FBC690100216EB6 /* WaveformV1.swift */,
 				22B4AEB2200CC96300F307BB /* WaveformIndex.swift */,
 			);
 			name = WaveformProtocolV1;
@@ -339,12 +397,8 @@
 			isa = PBXGroup;
 			children = (
 				22B4C255200A4BF100A5C9EC /* PatientProtocolV1.swift */,
-				22B4C21A200935FD00A5C9EC /* PatientV1Notification.swift */,
-				22B4C249200A416B00A5C9EC /* PatientV1NotificationType.swift */,
-				22B4C21D2009363B00A5C9EC /* PatientV1DidUpdate.swift */,
-				22B4C2202009368800A5C9EC /* PatientInfoV1.swift */,
-				22B4C226200936DA00A5C9EC /* ImageV1.swift */,
-				22B4C223200936BC00A5C9EC /* NameV1.swift */,
+				2244AE7320138B58006A851C /* Methods */,
+				2244AE7620138B5E006A851C /* Notifications */,
 			);
 			name = PatientProtocolV1;
 			sourceTree = "<group>";
@@ -355,7 +409,6 @@
 				22B4C25B200A4C3600A5C9EC /* LocationProtocolV1.swift */,
 				22B4C270200B88C600A5C9EC /* Methods */,
 				22B4C271200B88D000A5C9EC /* Notifications */,
-				22B4C27E200B8B6600A5C9EC /* Structures */,
 			);
 			name = LocationProtocolV1;
 			sourceTree = "<group>";
@@ -365,7 +418,6 @@
 			children = (
 				22B4C24F200A4B3F00A5C9EC /* BloodPressureProtocolV1.swift */,
 				22B4C291200B8F1100A5C9EC /* Notifications */,
-				22B4C292200B8F2100A5C9EC /* Structures */,
 			);
 			name = BloodPressureProtocolV1;
 			sourceTree = "<group>";
@@ -389,7 +441,6 @@
 				22B4C26A200B886800A5C9EC /* CameraProtocolV1.swift */,
 				22B4C283200B8CB400A5C9EC /* Methods */,
 				22B4C28D200B8DC200A5C9EC /* Notifications */,
-				22B4C282200B8C6C00A5C9EC /* Structures */,
 			);
 			name = CameraProtocolV1;
 			sourceTree = "<group>";
@@ -413,23 +464,6 @@
 				22B4C22C200937D300A5C9EC /* LocationV1DidUpdate.swift */,
 			);
 			name = Notifications;
-			sourceTree = "<group>";
-		};
-		22B4C27E200B8B6600A5C9EC /* Structures */ = {
-			isa = PBXGroup;
-			children = (
-				22E8E8881FDAA96C00FB937F /* LocationV1.swift */,
-				22343A6020010B980075B62A /* LocationDetailsV1.swift */,
-			);
-			name = Structures;
-			sourceTree = "<group>";
-		};
-		22B4C282200B8C6C00A5C9EC /* Structures */ = {
-			isa = PBXGroup;
-			children = (
-				22B4C27F200B8BB900A5C9EC /* CameraV1Profile.swift */,
-			);
-			name = Structures;
 			sourceTree = "<group>";
 		};
 		22B4C283200B8CB400A5C9EC /* Methods */ = {
@@ -457,24 +491,6 @@
 				22B4C23220093E0800A5C9EC /* BloodPressureV1DidUpdate.swift */,
 			);
 			name = Notifications;
-			sourceTree = "<group>";
-		};
-		22B4C292200B8F2100A5C9EC /* Structures */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Structures;
-			sourceTree = "<group>";
-		};
-		22B4C293200B8F3A00A5C9EC /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				22B4C28E200B8E9E00A5C9EC /* BloodPressureValueV1.swift */,
-				2244CD871FBC6B2500216EB6 /* MeasurementV1.swift */,
-				22B4C275200B894400A5C9EC /* MethodV1CodingKeys.swift */,
-				22B4C246200A404A00A5C9EC /* NotificationV1CodingKeys.swift */,
-			);
-			name = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -640,17 +656,19 @@
 			files = (
 				22B4C25C200A4C3600A5C9EC /* LocationProtocolV1.swift in Sources */,
 				22B4C21B200935FD00A5C9EC /* PatientV1Notification.swift in Sources */,
+				2244AE7B20138BAA006A851C /* PatientV1WriteValue.swift in Sources */,
 				22B4C28F200B8E9E00A5C9EC /* BloodPressureValueV1.swift in Sources */,
 				22B4AEB3200CC96300F307BB /* WaveformIndex.swift in Sources */,
 				22B4C288200B8CE800A5C9EC /* CameraV1MethodType.swift in Sources */,
 				22B4C273200B88F200A5C9EC /* LocationV1MethodType.swift in Sources */,
+				2244AE7E20138BC7006A851C /* PatientV1Method.swift in Sources */,
 				22B4C259200A4C1500A5C9EC /* WaveformProtocolV1.swift in Sources */,
 				2248B5031FA615D300F064A7 /* DeviceTypes.swift in Sources */,
 				22B1D1012002D22C002A48D5 /* MeasurementV1Notification.swift in Sources */,
 				22B4C27C200B8AA400A5C9EC /* LocationV1WriteValue.swift in Sources */,
 				2244CD881FBC6B2500216EB6 /* MeasurementV1.swift in Sources */,
 				22B4C241200A3F6700A5C9EC /* WaveformV1NotificationType.swift in Sources */,
-				22B4C280200B8BB900A5C9EC /* CameraV1Profile.swift in Sources */,
+				22B4C280200B8BB900A5C9EC /* CameraProfileV1.swift in Sources */,
 				22B4C26E200B88A500A5C9EC /* LocationV1Method.swift in Sources */,
 				22B4C23E200A3F2B00A5C9EC /* MeasurementV1NotificationType.swift in Sources */,
 				22B4C24D200A419E00A5C9EC /* LocationV1NotificationType.swift in Sources */,
@@ -662,6 +680,7 @@
 				22B4C256200A4BF100A5C9EC /* PatientProtocolV1.swift in Sources */,
 				22B4C276200B894400A5C9EC /* MethodV1CodingKeys.swift in Sources */,
 				2248B5141FA61A3D00F064A7 /* ResourceProtocolType.swift in Sources */,
+				2244AE7820138B99006A851C /* PatientV1ReadValue.swift in Sources */,
 				22B4C224200936BC00A5C9EC /* NameV1.swift in Sources */,
 				2244CD831FBC690100216EB6 /* WaveformV1.swift in Sources */,
 				22B4C23320093E0800A5C9EC /* BloodPressureV1DidUpdate.swift in Sources */,
@@ -672,6 +691,8 @@
 				2254FCB41FA7452500ADC90B /* OperationType.swift in Sources */,
 				22343A6120010B980075B62A /* LocationDetailsV1.swift in Sources */,
 				22B4C24A200A416B00A5C9EC /* PatientV1NotificationType.swift in Sources */,
+				2244AE8120138BD8006A851C /* PatientV1MethodType.swift in Sources */,
+				2244AEC72014E0EE006A851C /* PatientProfileV1.swift in Sources */,
 				22B4C22A2009379600A5C9EC /* LocationV1Notification.swift in Sources */,
 				22B4C2212009368800A5C9EC /* PatientInfoV1.swift in Sources */,
 				2248B50B1FA6188B00F064A7 /* ServiceType.swift in Sources */,
@@ -680,6 +701,7 @@
 				22B4C21E2009363B00A5C9EC /* PatientV1DidUpdate.swift in Sources */,
 				22B4C23020093DC000A5C9EC /* BloodPressureV1Notification.swift in Sources */,
 				2248B50E1FA618E400F064A7 /* ResourceSubject.swift in Sources */,
+				22AFFFB0200F803E0054B8FF /* UpdateV1.swift in Sources */,
 				22B4C253200A4B9200A5C9EC /* MeasurementProtocolV1.swift in Sources */,
 				2248B5111FA619C100F064A7 /* UnitType.swift in Sources */,
 				22B4C2142009345D00A5C9EC /* WaveformV1DidUpdate.swift in Sources */,
@@ -693,17 +715,19 @@
 			files = (
 				22B4C25D200A4C3600A5C9EC /* LocationProtocolV1.swift in Sources */,
 				22B4C21C200935FD00A5C9EC /* PatientV1Notification.swift in Sources */,
+				2244AE7C20138BAE006A851C /* PatientV1WriteValue.swift in Sources */,
 				22B4C290200B8E9E00A5C9EC /* BloodPressureValueV1.swift in Sources */,
 				22B4AEB4200CC96300F307BB /* WaveformIndex.swift in Sources */,
 				22B4C289200B8CE800A5C9EC /* CameraV1MethodType.swift in Sources */,
 				22B4C274200B88F200A5C9EC /* LocationV1MethodType.swift in Sources */,
+				2244AE7F20138BC7006A851C /* PatientV1Method.swift in Sources */,
 				22B4C25A200A4C1500A5C9EC /* WaveformProtocolV1.swift in Sources */,
 				2248B5041FA615D300F064A7 /* DeviceTypes.swift in Sources */,
 				22B1D1022002D22C002A48D5 /* MeasurementV1Notification.swift in Sources */,
 				22B4C27D200B8AA400A5C9EC /* LocationV1WriteValue.swift in Sources */,
 				2244CD891FBC6B2500216EB6 /* MeasurementV1.swift in Sources */,
 				22B4C242200A3F6700A5C9EC /* WaveformV1NotificationType.swift in Sources */,
-				22B4C281200B8BB900A5C9EC /* CameraV1Profile.swift in Sources */,
+				22B4C281200B8BB900A5C9EC /* CameraProfileV1.swift in Sources */,
 				22B4C26F200B88A500A5C9EC /* LocationV1Method.swift in Sources */,
 				22B4C23F200A3F2B00A5C9EC /* MeasurementV1NotificationType.swift in Sources */,
 				22B4C24E200A419E00A5C9EC /* LocationV1NotificationType.swift in Sources */,
@@ -715,6 +739,7 @@
 				22B4C257200A4BF100A5C9EC /* PatientProtocolV1.swift in Sources */,
 				22B4C277200B894400A5C9EC /* MethodV1CodingKeys.swift in Sources */,
 				2248B5151FA61A3D00F064A7 /* ResourceProtocolType.swift in Sources */,
+				2244AE7920138B9E006A851C /* PatientV1ReadValue.swift in Sources */,
 				22B4C225200936BC00A5C9EC /* NameV1.swift in Sources */,
 				2244CD841FBC690100216EB6 /* WaveformV1.swift in Sources */,
 				22B4C23420093E0800A5C9EC /* BloodPressureV1DidUpdate.swift in Sources */,
@@ -725,6 +750,8 @@
 				2254FCB71FA7452800ADC90B /* OperationType.swift in Sources */,
 				22343A6220010B980075B62A /* LocationDetailsV1.swift in Sources */,
 				22B4C24B200A416B00A5C9EC /* PatientV1NotificationType.swift in Sources */,
+				2244AE8220138BD8006A851C /* PatientV1MethodType.swift in Sources */,
+				2244AEC82014E0EE006A851C /* PatientProfileV1.swift in Sources */,
 				22B4C22B2009379600A5C9EC /* LocationV1Notification.swift in Sources */,
 				22B4C2222009368800A5C9EC /* PatientInfoV1.swift in Sources */,
 				2248B50C1FA6188B00F064A7 /* ServiceType.swift in Sources */,
@@ -733,6 +760,7 @@
 				22B4C21F2009363B00A5C9EC /* PatientV1DidUpdate.swift in Sources */,
 				22B4C23120093DC000A5C9EC /* BloodPressureV1Notification.swift in Sources */,
 				2248B50F1FA618E400F064A7 /* ResourceSubject.swift in Sources */,
+				22AFFFB1200F803E0054B8FF /* UpdateV1.swift in Sources */,
 				22B4C254200A4B9200A5C9EC /* MeasurementProtocolV1.swift in Sources */,
 				2248B5121FA619C100F064A7 /* UnitType.swift in Sources */,
 				22B4C2152009345D00A5C9EC /* WaveformV1DidUpdate.swift in Sources */,
@@ -787,7 +815,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 49;
+				CURRENT_PROJECT_VERSION = 50;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -847,7 +875,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 49;
+				CURRENT_PROJECT_VERSION = 50;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -878,7 +906,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 49;
+				DYLIB_CURRENT_VERSION = 50;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "MedKitAssignedNumbers iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -902,7 +930,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 49;
+				DYLIB_CURRENT_VERSION = 50;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "MedKitAssignedNumbers iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -926,7 +954,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 49;
+				DYLIB_CURRENT_VERSION = 50;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "MedKitAssignedNumbers macOS/Info.plist";
@@ -952,7 +980,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 49;
+				DYLIB_CURRENT_VERSION = 50;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "MedKitAssignedNumbers macOS/Info.plist";

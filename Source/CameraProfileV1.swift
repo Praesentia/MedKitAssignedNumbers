@@ -23,7 +23,7 @@ import Foundation
 import MedKitCore
 
 
-public struct CameraV1Profile: Codable {
+public struct CameraProfileV1: Codable {
 
     // MARK: - Properties
     public var description  : String?

@@ -1,6 +1,6 @@
 /*
  -----------------------------------------------------------------------------
- This source file is part of MedKitAssignedNumbers.
+ This source file is part of MedKitDomain.
 
  Copyright 2017-2018 Jon Griffeth
 
@@ -23,32 +23,29 @@ import Foundation
 import MedKitCore
 
 
-/**
- Measurement
- */
-public struct MeasurementV1<T: Codable>: Codable {
+public typealias DeviceInfoV1 = MedKitCore.DeviceInfo
 
-    public typealias Value = T
+public struct PatientProfileV1: Codable
+{
+    public typealias PatientInfo = PatientInfoV1
+    public typealias DeviceInfo  = DeviceInfoV1
 
     // MARK: - Properties
-    public var value : Value    //: Measurement value.
-    public var units : UnitType //: Measurement units.
-    public var time  : Time     //: Time at which the measurement was performed.
+    public var info    : PatientInfo
+    public var devices : [DeviceInfo]
 
     // MARK: - Private
     private enum CodingKeys: CodingKey {
-        case value
-        case units
-        case time
+        case info
+        case devices
     }
 
     // MARK: - Initializers
 
-    public init(value: Value, units: UnitType, time: Time)
+    public init(info: PatientInfo)
     {
-        self.value = value
-        self.units = units
-        self.time  = time
+        self.info    = info
+        self.devices = []
     }
 
     // MARK: - Codable
@@ -57,23 +54,19 @@ public struct MeasurementV1<T: Codable>: Codable {
     {
         let container = try decoder.container(keyedBy: CodingKeys.self)
 
-        value = try container.decode(Value.self,    forKey: .value)
-        units = try container.decode(UnitType.self, forKey: .units)
-        time  = try container.decode(Time.self,     forKey: .time)
+        info    = try container.decode(PatientInfo.self,  forKey: .info)
+        devices = try container.decode([DeviceInfo].self, forKey: .devices)
     }
 
     public func encode(to encoder: Encoder) throws
     {
         var container = encoder.container(keyedBy: CodingKeys.self)
 
-        try container.encode(value, forKey: .value)
-        try container.encode(units, forKey: .units)
-        try container.encode(time,  forKey: .time)
+        try container.encode(info,    forKey: .info)
+        try container.encode(devices, forKey: .devices)
     }
 
 }
 
 
 // End of File
-
-

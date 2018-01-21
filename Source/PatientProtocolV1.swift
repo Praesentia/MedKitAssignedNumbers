@@ -24,6 +24,7 @@ import Foundation
 
 public struct PatientProtocolV1 {
 
+    public typealias Method       = PatientV1Method
     public typealias Notification = PatientV1Notification
     public typealias Value        = PatientInfoV1
 

@@ -24,30 +24,27 @@ import MedKitCore
 
 
 /**
- Measurement
+ Update
  */
-public struct MeasurementV1<T: Codable>: Codable {
+public struct UpdateV1<T: Codable>: Codable {
 
     public typealias Value = T
 
     // MARK: - Properties
-    public var value : Value    //: Measurement value.
-    public var units : UnitType //: Measurement units.
-    public var time  : Time     //: Time at which the measurement was performed.
+    public var value : Value //: Updated value.
+    public var time  : Time  //: Time at which the update was performed.
 
     // MARK: - Private
     private enum CodingKeys: CodingKey {
         case value
-        case units
         case time
     }
 
     // MARK: - Initializers
 
-    public init(value: Value, units: UnitType, time: Time)
+    public init(value: Value, time: Time)
     {
         self.value = value
-        self.units = units
         self.time  = time
     }
 
@@ -57,9 +54,8 @@ public struct MeasurementV1<T: Codable>: Codable {
     {
         let container = try decoder.container(keyedBy: CodingKeys.self)
 
-        value = try container.decode(Value.self,    forKey: .value)
-        units = try container.decode(UnitType.self, forKey: .units)
-        time  = try container.decode(Time.self,     forKey: .time)
+        value = try container.decode(Value.self, forKey: .value)
+        time  = try container.decode(Time.self,  forKey: .time)
     }
 
     public func encode(to encoder: Encoder) throws
@@ -67,7 +63,6 @@ public struct MeasurementV1<T: Codable>: Codable {
         var container = encoder.container(keyedBy: CodingKeys.self)
 
         try container.encode(value, forKey: .value)
-        try container.encode(units, forKey: .units)
         try container.encode(time,  forKey: .time)
     }
 
@@ -75,5 +70,6 @@ public struct MeasurementV1<T: Codable>: Codable {
 
 
 // End of File
+
 
 

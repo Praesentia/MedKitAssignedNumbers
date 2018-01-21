@@ -20,34 +20,23 @@
 
 
 import Foundation
-import MedKitCore
 
 
-public typealias WaveformIndex = Int64
+public protocol PatientV1Method: Codable {
 
-public extension WaveformIndex {
+    var type: PatientV1MethodType { get }
 
-    public init(time: Time, resolution: Int64)
-    {
-        self = time / (Time.resolution / resolution)
-    }
+}
 
-    public init(timeInterval: TimeInterval, resolution: Int64)
-    {
-        self = Time(timeInterval: timeInterval) / (Time.resolution / resolution)
-    }
+public extension PatientV1Method {
 
-    public func time(resolution: Int64) -> Time
-    {
-        return Time(self * (Time.resolution / resolution))
-    }
-
-    public func timeInterval(resolution: Int64) -> TimeInterval
-    {
-        return time(resolution: resolution).timeInterval
-    }
+    public typealias CodingKeys = MethodV1CodingKeys
+    public typealias MethodType = PatientV1MethodType
+    public typealias ReadValue  = PatientV1ReadValue
+    public typealias WriteValue = PatientV1WriteValue
 
 }
 
 
 // End of File
+

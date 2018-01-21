@@ -18,14 +18,15 @@
  -----------------------------------------------------------------------------
  */
 
-
+ 
 import Foundation
 import MedKitCore
 
 
 public struct LocationV1WriteValue: LocationV1Method {
 
-    public typealias Args = LocationV1
+    public typealias Args  = LocationV1
+    public typealias Reply = UpdateV1<LocationV1>
 
     // MARK: - Properties
     public var type : LocationV1MethodType { return .writeValue }

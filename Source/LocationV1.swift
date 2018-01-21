@@ -41,6 +41,12 @@ public struct LocationV1: Codable {
     {
     }
 
+    public init(description: String?, details: LocationDetailsV1?)
+    {
+        self.description = description
+        self.details     = details
+    }
+
     // MARK: - Codable
 
     public init(from decoder: Decoder) throws

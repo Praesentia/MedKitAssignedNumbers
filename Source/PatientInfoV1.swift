@@ -40,7 +40,7 @@ public struct PatientInfoV1: Codable {
 
     // MARK: - Initializers
 
-    init(identifier: String, name: Name)
+    init(identifier: String, name: NameV1)
     {
         self.birthdate  = nil
         self.identifier = identifier
@@ -77,8 +77,6 @@ public struct PatientInfoV1: Codable {
     }
 
 }
-
-public typealias PatientInfo = PatientInfoV1
 
 
 // End of File

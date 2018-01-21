@@ -140,8 +140,6 @@ public class ImageV1: Codable {
 
 }
 
-public typealias Image = ImageV1
-
 
 // End of File
 

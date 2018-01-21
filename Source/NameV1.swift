@@ -79,7 +79,7 @@ public struct NameV1: Codable {
 
     // MARK: - Formatting
 
-    public func format(format: Format = Name.defaultFormat) -> String
+    public func format(format: Format = NameV1.defaultFormat) -> String
     {
         switch format {
         case .firstLast :
@@ -91,8 +91,6 @@ public struct NameV1: Codable {
     }
 
 }
-
-public typealias Name = NameV1
 
 
 // End of File
