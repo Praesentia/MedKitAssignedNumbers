@@ -26,4 +26,5 @@ public enum WaveformV1NotificationType: Int, Codable {
     case didUpdate = 1
 }
 
+
 // End of File

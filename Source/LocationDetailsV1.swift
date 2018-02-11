@@ -23,11 +23,17 @@ import Foundation
 import MedKitCore
 
 
+/**
+ Location Details, Version 1
+
+ An open-ended data structure for managing location details, permitting
+ organizations to tailor the data to their needs.
+ */
 public struct LocationDetailsV1: Codable {
 
     // MARK: - Properties
-    public var details : AnyCodable
-    public var schema  : UUID
+    public var details : AnyCodable //: Open-ended location data.
+    public var schema  : UUID       //: Used to identify the details schema.
 
     // MARK: - Private
     private enum CodingKeys: CodingKey {
@@ -65,7 +71,3 @@ public struct LocationDetailsV1: Codable {
 
 
 // End of File
-
-
-
-

@@ -30,7 +30,7 @@ public protocol BloodPressureV1Notification: Codable {
 
 public extension BloodPressureV1Notification {
 
-    public typealias CodingKeys       = NotificationV1CodingKeys
+    public typealias CodingKeys       = NotificationCodingKeysV1
     public typealias NotificationType = BloodPressureV1NotificationType
     public typealias DidUpdate        = BloodPressureV1DidUpdate
 

@@ -31,7 +31,7 @@ public struct LocationV1ReadValue: LocationV1Method {
     public var type: LocationV1MethodType { return .readValue }
 
     // MARK: - Private
-    private typealias CodingKeys = MethodV1CodingKeys
+    private typealias CodingKeys = MethodCodingKeysV1
 
     // MARK: - Initializers
 

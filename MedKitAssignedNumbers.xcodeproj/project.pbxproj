@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2230834D2029D55500E5A987 /* ImageV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083462029D4E700E5A987 /* ImageV1Tests.swift */; };
+		2230834E2029D55600E5A987 /* ImageV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083462029D4E700E5A987 /* ImageV1Tests.swift */; };
+		223083502029D66F00E5A987 /* PatientInfoV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2230834F2029D66F00E5A987 /* PatientInfoV1Tests.swift */; };
+		223083512029D66F00E5A987 /* PatientInfoV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2230834F2029D66F00E5A987 /* PatientInfoV1Tests.swift */; };
+		223083542029D99000E5A987 /* DeviceTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083532029D99000E5A987 /* DeviceTypeTests.swift */; };
+		223083552029D99000E5A987 /* DeviceTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083532029D99000E5A987 /* DeviceTypeTests.swift */; };
+		223083572029DBB700E5A987 /* ResourceSubjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083562029DBB700E5A987 /* ResourceSubjectTests.swift */; };
+		223083582029DBB700E5A987 /* ResourceSubjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083562029DBB700E5A987 /* ResourceSubjectTests.swift */; };
+		2230835B202B23E700E5A987 /* ResourceProtocolTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2230835A202B23E700E5A987 /* ResourceProtocolTypeTests.swift */; };
+		2230835C202B23E700E5A987 /* ResourceProtocolTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2230835A202B23E700E5A987 /* ResourceProtocolTypeTests.swift */; };
+		2230835E202B257600E5A987 /* ServiceTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2230835D202B257600E5A987 /* ServiceTypeTests.swift */; };
+		2230835F202B257600E5A987 /* ServiceTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2230835D202B257600E5A987 /* ServiceTypeTests.swift */; };
+		22308381202C75D700E5A987 /* UnitTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22308380202C75D700E5A987 /* UnitTypeTests.swift */; };
+		22308382202C75D700E5A987 /* UnitTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22308380202C75D700E5A987 /* UnitTypeTests.swift */; };
+		223083AD202DCA8A00E5A987 /* NameV1Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083AC202DCA8A00E5A987 /* NameV1Generator.swift */; };
+		223083AE202DCA8A00E5A987 /* NameV1Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083AC202DCA8A00E5A987 /* NameV1Generator.swift */; };
+		223083B0202DCF7600E5A987 /* ImageV1Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083AF202DCF7600E5A987 /* ImageV1Generator.swift */; };
+		223083B1202DCF7600E5A987 /* ImageV1Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083AF202DCF7600E5A987 /* ImageV1Generator.swift */; };
+		223083B3202DD19300E5A987 /* PatientInfoV1Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083B2202DD19300E5A987 /* PatientInfoV1Generator.swift */; };
+		223083B4202DD19300E5A987 /* PatientInfoV1Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083B2202DD19300E5A987 /* PatientInfoV1Generator.swift */; };
+		223083B7202DD2EB00E5A987 /* NameV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083B6202DD2EB00E5A987 /* NameV1.swift */; };
+		223083B8202DD2EB00E5A987 /* NameV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083B6202DD2EB00E5A987 /* NameV1.swift */; };
+		223083BA202DD3A100E5A987 /* ImageV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083B9202DD3A100E5A987 /* ImageV1.swift */; };
+		223083BB202DD3A100E5A987 /* ImageV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083B9202DD3A100E5A987 /* ImageV1.swift */; };
+		223083BD202DD94200E5A987 /* OperationTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083BC202DD94200E5A987 /* OperationTypeTests.swift */; };
+		223083BE202DD94200E5A987 /* OperationTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223083BC202DD94200E5A987 /* OperationTypeTests.swift */; };
 		22343A6120010B980075B62A /* LocationDetailsV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22343A6020010B980075B62A /* LocationDetailsV1.swift */; };
 		22343A6220010B980075B62A /* LocationDetailsV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22343A6020010B980075B62A /* LocationDetailsV1.swift */; };
 		223FB6321FA614900008C944 /* MedKitAssignedNumbers.h in Headers */ = {isa = PBXBuildFile; fileRef = 223FB6301FA614900008C944 /* MedKitAssignedNumbers.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,8 +51,8 @@
 		2244CD881FBC6B2500216EB6 /* MeasurementV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244CD871FBC6B2500216EB6 /* MeasurementV1.swift */; };
 		2244CD891FBC6B2500216EB6 /* MeasurementV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244CD871FBC6B2500216EB6 /* MeasurementV1.swift */; };
 		2248B4FE1FA615B300F064A7 /* MedKitAssignedNumbers.h in Headers */ = {isa = PBXBuildFile; fileRef = 2248B4FC1FA615B300F064A7 /* MedKitAssignedNumbers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2248B5031FA615D300F064A7 /* DeviceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2248B5021FA615D300F064A7 /* DeviceTypes.swift */; };
-		2248B5041FA615D300F064A7 /* DeviceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2248B5021FA615D300F064A7 /* DeviceTypes.swift */; };
+		2248B5031FA615D300F064A7 /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2248B5021FA615D300F064A7 /* DeviceType.swift */; };
+		2248B5041FA615D300F064A7 /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2248B5021FA615D300F064A7 /* DeviceType.swift */; };
 		2248B50B1FA6188B00F064A7 /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2248B50A1FA6188B00F064A7 /* ServiceType.swift */; };
 		2248B50C1FA6188B00F064A7 /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2248B50A1FA6188B00F064A7 /* ServiceType.swift */; };
 		2248B50E1FA618E400F064A7 /* ResourceSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2248B50D1FA618E400F064A7 /* ResourceSubject.swift */; };
@@ -40,14 +66,24 @@
 		2248B5A61FA6331B00F064A7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2248B5A51FA6331B00F064A7 /* README.md */; };
 		2254FCB41FA7452500ADC90B /* OperationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2254FCB31FA7452500ADC90B /* OperationType.swift */; };
 		2254FCB71FA7452800ADC90B /* OperationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2254FCB31FA7452500ADC90B /* OperationType.swift */; };
+		228F3FE4202F36AB00FB96B3 /* ProtocolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F3FE3202F36AB00FB96B3 /* ProtocolType.swift */; };
+		228F3FE5202F36AB00FB96B3 /* ProtocolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F3FE3202F36AB00FB96B3 /* ProtocolType.swift */; };
+		228F3FF4202F5FB500FB96B3 /* ProtocolTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F3FF3202F5FB500FB96B3 /* ProtocolTypeTests.swift */; };
+		228F3FF5202F5FB500FB96B3 /* ProtocolTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F3FF3202F5FB500FB96B3 /* ProtocolTypeTests.swift */; };
+		229F82182021EDC300B1D6AD /* WaveformEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F82172021EDC300B1D6AD /* WaveformEncoder.swift */; };
+		229F82192021EDC300B1D6AD /* WaveformEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F82172021EDC300B1D6AD /* WaveformEncoder.swift */; };
+		229F821D2021EE3600B1D6AD /* WaveformDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F821C2021EE3600B1D6AD /* WaveformDecoder.swift */; };
+		229F821E2021EE3600B1D6AD /* WaveformDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F821C2021EE3600B1D6AD /* WaveformDecoder.swift */; };
+		229F823F2023340F00B1D6AD /* WaveformInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F823E2023340F00B1D6AD /* WaveformInterval.swift */; };
+		229F82402023340F00B1D6AD /* WaveformInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F823E2023340F00B1D6AD /* WaveformInterval.swift */; };
 		22AFFFB0200F803E0054B8FF /* UpdateV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AFFFAF200F803E0054B8FF /* UpdateV1.swift */; };
 		22AFFFB1200F803E0054B8FF /* UpdateV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AFFFAF200F803E0054B8FF /* UpdateV1.swift */; };
 		22B1D1012002D22C002A48D5 /* MeasurementV1Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1D1002002D22C002A48D5 /* MeasurementV1Notification.swift */; };
 		22B1D1022002D22C002A48D5 /* MeasurementV1Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1D1002002D22C002A48D5 /* MeasurementV1Notification.swift */; };
 		22B1D1042002D78A002A48D5 /* MeasurementV1DidUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1D1032002D78A002A48D5 /* MeasurementV1DidUpdate.swift */; };
 		22B1D1052002D78A002A48D5 /* MeasurementV1DidUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1D1032002D78A002A48D5 /* MeasurementV1DidUpdate.swift */; };
-		22B4AEB3200CC96300F307BB /* WaveformIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4AEB2200CC96300F307BB /* WaveformIndex.swift */; };
-		22B4AEB4200CC96300F307BB /* WaveformIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4AEB2200CC96300F307BB /* WaveformIndex.swift */; };
+		22B4AEB3200CC96300F307BB /* WaveformIndexV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4AEB2200CC96300F307BB /* WaveformIndexV1.swift */; };
+		22B4AEB4200CC96300F307BB /* WaveformIndexV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4AEB2200CC96300F307BB /* WaveformIndexV1.swift */; };
 		22B4C2112009343300A5C9EC /* WaveformV1Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C2102009343300A5C9EC /* WaveformV1Notification.swift */; };
 		22B4C2122009343300A5C9EC /* WaveformV1Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C2102009343300A5C9EC /* WaveformV1Notification.swift */; };
 		22B4C2142009345D00A5C9EC /* WaveformV1DidUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C2132009345D00A5C9EC /* WaveformV1DidUpdate.swift */; };
@@ -76,8 +112,8 @@
 		22B4C242200A3F6700A5C9EC /* WaveformV1NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C240200A3F6700A5C9EC /* WaveformV1NotificationType.swift */; };
 		22B4C244200A3FDE00A5C9EC /* BloodPressureV1NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C243200A3FDE00A5C9EC /* BloodPressureV1NotificationType.swift */; };
 		22B4C245200A3FDE00A5C9EC /* BloodPressureV1NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C243200A3FDE00A5C9EC /* BloodPressureV1NotificationType.swift */; };
-		22B4C247200A404A00A5C9EC /* NotificationV1CodingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C246200A404A00A5C9EC /* NotificationV1CodingKeys.swift */; };
-		22B4C248200A404A00A5C9EC /* NotificationV1CodingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C246200A404A00A5C9EC /* NotificationV1CodingKeys.swift */; };
+		22B4C247200A404A00A5C9EC /* NotificationCodingKeysV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C246200A404A00A5C9EC /* NotificationCodingKeysV1.swift */; };
+		22B4C248200A404A00A5C9EC /* NotificationCodingKeysV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C246200A404A00A5C9EC /* NotificationCodingKeysV1.swift */; };
 		22B4C24A200A416B00A5C9EC /* PatientV1NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C249200A416B00A5C9EC /* PatientV1NotificationType.swift */; };
 		22B4C24B200A416B00A5C9EC /* PatientV1NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C249200A416B00A5C9EC /* PatientV1NotificationType.swift */; };
 		22B4C24D200A419E00A5C9EC /* LocationV1NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C24C200A419E00A5C9EC /* LocationV1NotificationType.swift */; };
@@ -98,8 +134,8 @@
 		22B4C26F200B88A500A5C9EC /* LocationV1Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C26D200B88A500A5C9EC /* LocationV1Method.swift */; };
 		22B4C273200B88F200A5C9EC /* LocationV1MethodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C272200B88F200A5C9EC /* LocationV1MethodType.swift */; };
 		22B4C274200B88F200A5C9EC /* LocationV1MethodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C272200B88F200A5C9EC /* LocationV1MethodType.swift */; };
-		22B4C276200B894400A5C9EC /* MethodV1CodingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C275200B894400A5C9EC /* MethodV1CodingKeys.swift */; };
-		22B4C277200B894400A5C9EC /* MethodV1CodingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C275200B894400A5C9EC /* MethodV1CodingKeys.swift */; };
+		22B4C276200B894400A5C9EC /* MethodCodingKeysV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C275200B894400A5C9EC /* MethodCodingKeysV1.swift */; };
+		22B4C277200B894400A5C9EC /* MethodCodingKeysV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C275200B894400A5C9EC /* MethodCodingKeysV1.swift */; };
 		22B4C279200B89C600A5C9EC /* LocationV1ReadValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C278200B89C600A5C9EC /* LocationV1ReadValue.swift */; };
 		22B4C27A200B89C600A5C9EC /* LocationV1ReadValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C278200B89C600A5C9EC /* LocationV1ReadValue.swift */; };
 		22B4C27C200B8AA400A5C9EC /* LocationV1WriteValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C27B200B8AA400A5C9EC /* LocationV1WriteValue.swift */; };
@@ -114,11 +150,57 @@
 		22B4C28C200B8D3B00A5C9EC /* CameraV1ReadProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C28A200B8D3B00A5C9EC /* CameraV1ReadProfile.swift */; };
 		22B4C28F200B8E9E00A5C9EC /* BloodPressureValueV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C28E200B8E9E00A5C9EC /* BloodPressureValueV1.swift */; };
 		22B4C290200B8E9E00A5C9EC /* BloodPressureValueV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4C28E200B8E9E00A5C9EC /* BloodPressureValueV1.swift */; };
+		22BD2F2120274E2E009F6A9F /* MedKitAssignedNumbers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223FB62D1FA614900008C944 /* MedKitAssignedNumbers.framework */; };
+		22BD2F3220274E4D009F6A9F /* MedKitAssignedNumbers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248B4FA1FA615B300F064A7 /* MedKitAssignedNumbers.framework */; };
+		22BD2F3920274F3E009F6A9F /* NameV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD2F3820274F3E009F6A9F /* NameV1Tests.swift */; };
+		22BD2F3A20274F3E009F6A9F /* NameV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD2F3820274F3E009F6A9F /* NameV1Tests.swift */; };
 		22E8E8891FDAA96C00FB937F /* LocationV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E8E8881FDAA96C00FB937F /* LocationV1.swift */; };
 		22E8E88A1FDAA96C00FB937F /* LocationV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E8E8881FDAA96C00FB937F /* LocationV1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		223083142028844B00E5A987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2230830B2028844B00E5A987 /* SecurityKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2246417F1F12B46D00379124;
+			remoteInfo = "SecurityKit iOS";
+		};
+		223083162028844B00E5A987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2230830B2028844B00E5A987 /* SecurityKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 224641B51F12B67800379124;
+			remoteInfo = "SecurityKit macOS";
+		};
+		223083182028844B00E5A987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2230830B2028844B00E5A987 /* SecurityKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 224641881F12B46D00379124;
+			remoteInfo = "SecurityKit iOSTests";
+		};
+		2230831A2028844B00E5A987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2230830B2028844B00E5A987 /* SecurityKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 224641BD1F12B67800379124;
+			remoteInfo = "SecurityKit macOSTests";
+		};
+		2230831C2028846F00E5A987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2230830B2028844B00E5A987 /* SecurityKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2246417E1F12B46D00379124;
+			remoteInfo = "SecurityKit iOS";
+		};
+		2230831E2028847500E5A987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2230830B2028844B00E5A987 /* SecurityKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 224641B41F12B67800379124;
+			remoteInfo = "SecurityKit macOS";
+		};
 		2248B4ED1FA6154100F064A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2248B4E61FA6154100F064A7 /* MedKitCore.xcodeproj */;
@@ -161,9 +243,37 @@
 			remoteGlobalIDString = 2243DC781E872BDB00A188FD;
 			remoteInfo = "MedKitCore iOS";
 		};
+		22BD2F2220274E2E009F6A9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 223FB6241FA614900008C944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 223FB62C1FA614900008C944;
+			remoteInfo = "MedKitAssignedNumbers iOS";
+		};
+		22BD2F3320274E4D009F6A9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 223FB6241FA614900008C944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2248B4F91FA615B300F064A7;
+			remoteInfo = "MedKitAssignedNumbers macOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2230830B2028844B00E5A987 /* SecurityKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SecurityKit.xcodeproj; path = ../SecurityKit/SecurityKit.xcodeproj; sourceTree = "<group>"; };
+		223083462029D4E700E5A987 /* ImageV1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageV1Tests.swift; sourceTree = "<group>"; };
+		2230834F2029D66F00E5A987 /* PatientInfoV1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientInfoV1Tests.swift; sourceTree = "<group>"; };
+		223083532029D99000E5A987 /* DeviceTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTypeTests.swift; sourceTree = "<group>"; };
+		223083562029DBB700E5A987 /* ResourceSubjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceSubjectTests.swift; sourceTree = "<group>"; };
+		2230835A202B23E700E5A987 /* ResourceProtocolTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceProtocolTypeTests.swift; sourceTree = "<group>"; };
+		2230835D202B257600E5A987 /* ServiceTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTypeTests.swift; sourceTree = "<group>"; };
+		22308380202C75D700E5A987 /* UnitTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTypeTests.swift; sourceTree = "<group>"; };
+		223083AC202DCA8A00E5A987 /* NameV1Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameV1Generator.swift; sourceTree = "<group>"; };
+		223083AF202DCF7600E5A987 /* ImageV1Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageV1Generator.swift; sourceTree = "<group>"; };
+		223083B2202DD19300E5A987 /* PatientInfoV1Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientInfoV1Generator.swift; sourceTree = "<group>"; };
+		223083B6202DD2EB00E5A987 /* NameV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameV1.swift; sourceTree = "<group>"; };
+		223083B9202DD3A100E5A987 /* ImageV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageV1.swift; sourceTree = "<group>"; };
+		223083BC202DD94200E5A987 /* OperationTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationTypeTests.swift; sourceTree = "<group>"; };
 		22343A6020010B980075B62A /* LocationDetailsV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsV1.swift; sourceTree = "<group>"; };
 		223FB62D1FA614900008C944 /* MedKitAssignedNumbers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MedKitAssignedNumbers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		223FB6301FA614900008C944 /* MedKitAssignedNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedKitAssignedNumbers.h; sourceTree = "<group>"; };
@@ -179,7 +289,7 @@
 		2248B4FA1FA615B300F064A7 /* MedKitAssignedNumbers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MedKitAssignedNumbers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2248B4FC1FA615B300F064A7 /* MedKitAssignedNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedKitAssignedNumbers.h; sourceTree = "<group>"; };
 		2248B4FD1FA615B300F064A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2248B5021FA615D300F064A7 /* DeviceTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTypes.swift; sourceTree = "<group>"; };
+		2248B5021FA615D300F064A7 /* DeviceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
 		2248B50A1FA6188B00F064A7 /* ServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceType.swift; sourceTree = "<group>"; };
 		2248B50D1FA618E400F064A7 /* ResourceSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceSubject.swift; sourceTree = "<group>"; };
 		2248B5101FA619C100F064A7 /* UnitType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitType.swift; sourceTree = "<group>"; };
@@ -188,10 +298,15 @@
 		2248B5A31FA6331100F064A7 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = SOURCE_ROOT; };
 		2248B5A51FA6331B00F064A7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		2254FCB31FA7452500ADC90B /* OperationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationType.swift; sourceTree = "<group>"; };
+		228F3FE3202F36AB00FB96B3 /* ProtocolType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolType.swift; sourceTree = "<group>"; };
+		228F3FF3202F5FB500FB96B3 /* ProtocolTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolTypeTests.swift; sourceTree = "<group>"; };
+		229F82172021EDC300B1D6AD /* WaveformEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformEncoder.swift; sourceTree = "<group>"; };
+		229F821C2021EE3600B1D6AD /* WaveformDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformDecoder.swift; sourceTree = "<group>"; };
+		229F823E2023340F00B1D6AD /* WaveformInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformInterval.swift; sourceTree = "<group>"; };
 		22AFFFAF200F803E0054B8FF /* UpdateV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateV1.swift; sourceTree = "<group>"; };
 		22B1D1002002D22C002A48D5 /* MeasurementV1Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementV1Notification.swift; sourceTree = "<group>"; };
 		22B1D1032002D78A002A48D5 /* MeasurementV1DidUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementV1DidUpdate.swift; sourceTree = "<group>"; };
-		22B4AEB2200CC96300F307BB /* WaveformIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformIndex.swift; sourceTree = "<group>"; };
+		22B4AEB2200CC96300F307BB /* WaveformIndexV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformIndexV1.swift; sourceTree = "<group>"; };
 		22B4C2102009343300A5C9EC /* WaveformV1Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformV1Notification.swift; sourceTree = "<group>"; };
 		22B4C2132009345D00A5C9EC /* WaveformV1DidUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformV1DidUpdate.swift; sourceTree = "<group>"; };
 		22B4C21A200935FD00A5C9EC /* PatientV1Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientV1Notification.swift; sourceTree = "<group>"; };
@@ -206,7 +321,7 @@
 		22B4C23D200A3F2B00A5C9EC /* MeasurementV1NotificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementV1NotificationType.swift; sourceTree = "<group>"; };
 		22B4C240200A3F6700A5C9EC /* WaveformV1NotificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformV1NotificationType.swift; sourceTree = "<group>"; };
 		22B4C243200A3FDE00A5C9EC /* BloodPressureV1NotificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressureV1NotificationType.swift; sourceTree = "<group>"; };
-		22B4C246200A404A00A5C9EC /* NotificationV1CodingKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationV1CodingKeys.swift; sourceTree = "<group>"; };
+		22B4C246200A404A00A5C9EC /* NotificationCodingKeysV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCodingKeysV1.swift; sourceTree = "<group>"; };
 		22B4C249200A416B00A5C9EC /* PatientV1NotificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientV1NotificationType.swift; sourceTree = "<group>"; };
 		22B4C24C200A419E00A5C9EC /* LocationV1NotificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationV1NotificationType.swift; sourceTree = "<group>"; };
 		22B4C24F200A4B3F00A5C9EC /* BloodPressureProtocolV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressureProtocolV1.swift; sourceTree = "<group>"; };
@@ -217,7 +332,7 @@
 		22B4C26A200B886800A5C9EC /* CameraProtocolV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraProtocolV1.swift; sourceTree = "<group>"; };
 		22B4C26D200B88A500A5C9EC /* LocationV1Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationV1Method.swift; sourceTree = "<group>"; };
 		22B4C272200B88F200A5C9EC /* LocationV1MethodType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationV1MethodType.swift; sourceTree = "<group>"; };
-		22B4C275200B894400A5C9EC /* MethodV1CodingKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodV1CodingKeys.swift; sourceTree = "<group>"; };
+		22B4C275200B894400A5C9EC /* MethodCodingKeysV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodCodingKeysV1.swift; sourceTree = "<group>"; };
 		22B4C278200B89C600A5C9EC /* LocationV1ReadValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationV1ReadValue.swift; sourceTree = "<group>"; };
 		22B4C27B200B8AA400A5C9EC /* LocationV1WriteValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationV1WriteValue.swift; sourceTree = "<group>"; };
 		22B4C27F200B8BB900A5C9EC /* CameraProfileV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraProfileV1.swift; sourceTree = "<group>"; };
@@ -225,6 +340,11 @@
 		22B4C287200B8CE800A5C9EC /* CameraV1MethodType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraV1MethodType.swift; sourceTree = "<group>"; };
 		22B4C28A200B8D3B00A5C9EC /* CameraV1ReadProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraV1ReadProfile.swift; sourceTree = "<group>"; };
 		22B4C28E200B8E9E00A5C9EC /* BloodPressureValueV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressureValueV1.swift; sourceTree = "<group>"; };
+		22BD2F1C20274E2D009F6A9F /* MedKitAssignedNumbers iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MedKitAssignedNumbers iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BD2F2020274E2E009F6A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22BD2F2D20274E4D009F6A9F /* MedKitAssignedNumbers macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MedKitAssignedNumbers macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BD2F3120274E4D009F6A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22BD2F3820274F3E009F6A9F /* NameV1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameV1Tests.swift; sourceTree = "<group>"; };
 		22E8E8881FDAA96C00FB937F /* LocationV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationV1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -243,17 +363,88 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22BD2F1920274E2D009F6A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BD2F2120274E2E009F6A9F /* MedKitAssignedNumbers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BD2F2A20274E4D009F6A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BD2F3220274E4D009F6A9F /* MedKitAssignedNumbers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2230830C2028844B00E5A987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				223083152028844B00E5A987 /* SecurityKit.framework */,
+				223083172028844B00E5A987 /* SecurityKit.framework */,
+				223083192028844B00E5A987 /* SecurityKit iOSTests.xctest */,
+				2230831B2028844B00E5A987 /* SecurityKit macOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		223083522029D95A00E5A987 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				223083532029D99000E5A987 /* DeviceTypeTests.swift */,
+				223083BC202DD94200E5A987 /* OperationTypeTests.swift */,
+				228F3FF3202F5FB500FB96B3 /* ProtocolTypeTests.swift */,
+				2230835A202B23E700E5A987 /* ResourceProtocolTypeTests.swift */,
+				223083562029DBB700E5A987 /* ResourceSubjectTests.swift */,
+				2230835D202B257600E5A987 /* ServiceTypeTests.swift */,
+				22308380202C75D700E5A987 /* UnitTypeTests.swift */,
+			);
+			name = Types;
+			sourceTree = "<group>";
+		};
+		223083592029DC1200E5A987 /* Resource Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Resource Protocols";
+			sourceTree = "<group>";
+		};
+		223083A7202DCA6400E5A987 /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				223083AF202DCF7600E5A987 /* ImageV1Generator.swift */,
+				223083AC202DCA8A00E5A987 /* NameV1Generator.swift */,
+				223083B2202DD19300E5A987 /* PatientInfoV1Generator.swift */,
+			);
+			name = Generators;
+			sourceTree = "<group>";
+		};
+		223083B5202DD2D700E5A987 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				223083B9202DD3A100E5A987 /* ImageV1.swift */,
+				223083B6202DD2EB00E5A987 /* NameV1.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		223FB6231FA614900008C944 = {
 			isa = PBXGroup;
 			children = (
 				2248B4E61FA6154100F064A7 /* MedKitCore.xcodeproj */,
+				2230830B2028844B00E5A987 /* SecurityKit.xcodeproj */,
 				2248B5051FA6164000F064A7 /* Documentation */,
 				223FB6531FA614C60008C944 /* Source */,
+				22BD2EEF2025FBF9009F6A9F /* Tests */,
 				223FB62F1FA614900008C944 /* MedKitAssignedNumbers iOS */,
+				22BD2F1D20274E2E009F6A9F /* MedKitAssignedNumbers iOSTests */,
 				2248B4FB1FA615B300F064A7 /* MedKitAssignedNumbers macOS */,
+				22BD2F2E20274E4D009F6A9F /* MedKitAssignedNumbersTests macOSTests */,
 				223FB62E1FA614900008C944 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -263,6 +454,8 @@
 			children = (
 				223FB62D1FA614900008C944 /* MedKitAssignedNumbers.framework */,
 				2248B4FA1FA615B300F064A7 /* MedKitAssignedNumbers.framework */,
+				22BD2F1C20274E2D009F6A9F /* MedKitAssignedNumbers iOSTests.xctest */,
+				22BD2F2D20274E4D009F6A9F /* MedKitAssignedNumbers macOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -279,9 +472,9 @@
 		223FB6531FA614C60008C944 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				22A152491FB77E9D006802D0 /* Resource Protocols */,
 				22AFFF86200E5DE40054B8FF /* Structures */,
 				22B4C219200935C500A5C9EC /* Types */,
-				22A152491FB77E9D006802D0 /* Resource Protocols */,
 			);
 			path = Source;
 			sourceTree = SOURCE_ROOT;
@@ -311,8 +504,8 @@
 			isa = PBXGroup;
 			children = (
 				2248B4EE1FA6154100F064A7 /* MedKitCore.framework */,
-				2248B4F01FA6154100F064A7 /* MedKitCore iOSTests.xctest */,
 				2248B4F21FA6154100F064A7 /* MedKitCore.framework */,
+				2248B4F01FA6154100F064A7 /* MedKitCore iOSTests.xctest */,
 				2248B4F41FA6154100F064A7 /* MedKitCore macOSTests.xctest */,
 			);
 			name = Products;
@@ -337,11 +530,53 @@
 			path = Documentation;
 			sourceTree = "<group>";
 		};
+		2290A41320160FB200EBB908 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				22B1D1002002D22C002A48D5 /* MeasurementV1Notification.swift */,
+				22B4C23D200A3F2B00A5C9EC /* MeasurementV1NotificationType.swift */,
+				22B1D1032002D78A002A48D5 /* MeasurementV1DidUpdate.swift */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+		2290A41420160FDF00EBB908 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Methods;
+			sourceTree = "<group>";
+		};
+		2290A4152016103900EBB908 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				22B4C2102009343300A5C9EC /* WaveformV1Notification.swift */,
+				22B4C240200A3F6700A5C9EC /* WaveformV1NotificationType.swift */,
+				22B4C2132009345D00A5C9EC /* WaveformV1DidUpdate.swift */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+		2290A4162016104600EBB908 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Methods;
+			sourceTree = "<group>";
+		};
+		2290A417201610F300EBB908 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				22B4C275200B894400A5C9EC /* MethodCodingKeysV1.swift */,
+				22B4C246200A404A00A5C9EC /* NotificationCodingKeysV1.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
 		22A152491FB77E9D006802D0 /* Resource Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				22B4C275200B894400A5C9EC /* MethodV1CodingKeys.swift */,
-				22B4C246200A404A00A5C9EC /* NotificationV1CodingKeys.swift */,
+				2290A417201610F300EBB908 /* Shared */,
 				22B4C218200935AB00A5C9EC /* BloodPressureProtocolV1 */,
 				22B4C269200B884700A5C9EC /* CameraProtocolV1 */,
 				22B4C2172009359900A5C9EC /* LocationProtocolV1 */,
@@ -366,6 +601,10 @@
 				2244AEC62014E0EE006A851C /* PatientProfileV1.swift */,
 				22AFFFAF200F803E0054B8FF /* UpdateV1.swift */,
 				2244CD821FBC690100216EB6 /* WaveformV1.swift */,
+				22B4AEB2200CC96300F307BB /* WaveformIndexV1.swift */,
+				229F82172021EDC300B1D6AD /* WaveformEncoder.swift */,
+				229F821C2021EE3600B1D6AD /* WaveformDecoder.swift */,
+				229F823E2023340F00B1D6AD /* WaveformInterval.swift */,
 			);
 			name = Structures;
 			sourceTree = "<group>";
@@ -374,9 +613,8 @@
 			isa = PBXGroup;
 			children = (
 				22B4C252200A4B9200A5C9EC /* MeasurementProtocolV1.swift */,
-				22B1D1002002D22C002A48D5 /* MeasurementV1Notification.swift */,
-				22B4C23D200A3F2B00A5C9EC /* MeasurementV1NotificationType.swift */,
-				22B1D1032002D78A002A48D5 /* MeasurementV1DidUpdate.swift */,
+				2290A41420160FDF00EBB908 /* Methods */,
+				2290A41320160FB200EBB908 /* Notifications */,
 			);
 			name = MeasurementProtocolV1;
 			sourceTree = "<group>";
@@ -385,10 +623,8 @@
 			isa = PBXGroup;
 			children = (
 				22B4C258200A4C1500A5C9EC /* WaveformProtocolV1.swift */,
-				22B4C2102009343300A5C9EC /* WaveformV1Notification.swift */,
-				22B4C240200A3F6700A5C9EC /* WaveformV1NotificationType.swift */,
-				22B4C2132009345D00A5C9EC /* WaveformV1DidUpdate.swift */,
-				22B4AEB2200CC96300F307BB /* WaveformIndex.swift */,
+				2290A4162016104600EBB908 /* Methods */,
+				2290A4152016103900EBB908 /* Notifications */,
 			);
 			name = WaveformProtocolV1;
 			sourceTree = "<group>";
@@ -425,8 +661,9 @@
 		22B4C219200935C500A5C9EC /* Types */ = {
 			isa = PBXGroup;
 			children = (
-				2248B5021FA615D300F064A7 /* DeviceTypes.swift */,
+				2248B5021FA615D300F064A7 /* DeviceType.swift */,
 				2254FCB31FA7452500ADC90B /* OperationType.swift */,
+				228F3FE3202F36AB00FB96B3 /* ProtocolType.swift */,
 				2248B50D1FA618E400F064A7 /* ResourceSubject.swift */,
 				2248B5131FA61A3D00F064A7 /* ResourceProtocolType.swift */,
 				2248B50A1FA6188B00F064A7 /* ServiceType.swift */,
@@ -493,6 +730,44 @@
 			name = Notifications;
 			sourceTree = "<group>";
 		};
+		22BD2EEF2025FBF9009F6A9F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				223083592029DC1200E5A987 /* Resource Protocols */,
+				22BD2F3C20274F8E009F6A9F /* Structures */,
+				223083522029D95A00E5A987 /* Types */,
+				223083A7202DCA6400E5A987 /* Generators */,
+				223083B5202DD2D700E5A987 /* Extensions */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		22BD2F1D20274E2E009F6A9F /* MedKitAssignedNumbers iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				22BD2F2020274E2E009F6A9F /* Info.plist */,
+			);
+			path = "MedKitAssignedNumbers iOSTests";
+			sourceTree = "<group>";
+		};
+		22BD2F2E20274E4D009F6A9F /* MedKitAssignedNumbersTests macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				22BD2F3120274E4D009F6A9F /* Info.plist */,
+			);
+			path = "MedKitAssignedNumbersTests macOSTests";
+			sourceTree = "<group>";
+		};
+		22BD2F3C20274F8E009F6A9F /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				223083462029D4E700E5A987 /* ImageV1Tests.swift */,
+				22BD2F3820274F3E009F6A9F /* NameV1Tests.swift */,
+				2230834F2029D66F00E5A987 /* PatientInfoV1Tests.swift */,
+			);
+			name = Structures;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -527,6 +802,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2230831D2028846F00E5A987 /* PBXTargetDependency */,
 				2248B5091FA6182400F064A7 /* PBXTargetDependency */,
 			);
 			name = "MedKitAssignedNumbers iOS";
@@ -546,6 +822,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2230831F2028847500E5A987 /* PBXTargetDependency */,
 				2248B5071FA6182000F064A7 /* PBXTargetDependency */,
 			);
 			name = "MedKitAssignedNumbers macOS";
@@ -553,13 +830,50 @@
 			productReference = 2248B4FA1FA615B300F064A7 /* MedKitAssignedNumbers.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		22BD2F1B20274E2D009F6A9F /* MedKitAssignedNumbers iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BD2F2820274E2E009F6A9F /* Build configuration list for PBXNativeTarget "MedKitAssignedNumbers iOSTests" */;
+			buildPhases = (
+				22BD2F1820274E2D009F6A9F /* Sources */,
+				22BD2F1920274E2D009F6A9F /* Frameworks */,
+				22BD2F1A20274E2D009F6A9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22BD2F2320274E2E009F6A9F /* PBXTargetDependency */,
+			);
+			name = "MedKitAssignedNumbers iOSTests";
+			productName = "MedKitAssignedNumbers iOSTests";
+			productReference = 22BD2F1C20274E2D009F6A9F /* MedKitAssignedNumbers iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22BD2F2C20274E4D009F6A9F /* MedKitAssignedNumbers macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BD2F3520274E4D009F6A9F /* Build configuration list for PBXNativeTarget "MedKitAssignedNumbers macOSTests" */;
+			buildPhases = (
+				22BD2F2920274E4D009F6A9F /* Sources */,
+				22BD2F2A20274E4D009F6A9F /* Frameworks */,
+				22BD2F2B20274E4D009F6A9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22BD2F3420274E4D009F6A9F /* PBXTargetDependency */,
+			);
+			name = "MedKitAssignedNumbers macOSTests";
+			productName = "MedKitAssignedNumbersTests macOSTests";
+			productReference = 22BD2F2D20274E4D009F6A9F /* MedKitAssignedNumbers macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		223FB6241FA614900008C944 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Jon Griffeth";
 				TargetAttributes = {
 					223FB62C1FA614900008C944 = {
@@ -570,6 +884,16 @@
 					2248B4F91FA615B300F064A7 = {
 						CreatedOnToolsVersion = 9.0.1;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					22BD2F1B20274E2D009F6A9F = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					22BD2F2C20274E4D009F6A9F = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -589,16 +913,50 @@
 					ProductGroup = 2248B4E71FA6154100F064A7 /* Products */;
 					ProjectRef = 2248B4E61FA6154100F064A7 /* MedKitCore.xcodeproj */;
 				},
+				{
+					ProductGroup = 2230830C2028844B00E5A987 /* Products */;
+					ProjectRef = 2230830B2028844B00E5A987 /* SecurityKit.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
 				223FB62C1FA614900008C944 /* MedKitAssignedNumbers iOS */,
 				2248B4F91FA615B300F064A7 /* MedKitAssignedNumbers macOS */,
+				22BD2F1B20274E2D009F6A9F /* MedKitAssignedNumbers iOSTests */,
+				22BD2F2C20274E4D009F6A9F /* MedKitAssignedNumbers macOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		223083152028844B00E5A987 /* SecurityKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SecurityKit.framework;
+			remoteRef = 223083142028844B00E5A987 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		223083172028844B00E5A987 /* SecurityKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SecurityKit.framework;
+			remoteRef = 223083162028844B00E5A987 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		223083192028844B00E5A987 /* SecurityKit iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SecurityKit iOSTests.xctest";
+			remoteRef = 223083182028844B00E5A987 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2230831B2028844B00E5A987 /* SecurityKit macOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SecurityKit macOSTests.xctest";
+			remoteRef = 2230831A2028844B00E5A987 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		2248B4EE1FA6154100F064A7 /* MedKitCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -647,6 +1005,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22BD2F1A20274E2D009F6A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BD2F2B20274E4D009F6A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -658,12 +1030,12 @@
 				22B4C21B200935FD00A5C9EC /* PatientV1Notification.swift in Sources */,
 				2244AE7B20138BAA006A851C /* PatientV1WriteValue.swift in Sources */,
 				22B4C28F200B8E9E00A5C9EC /* BloodPressureValueV1.swift in Sources */,
-				22B4AEB3200CC96300F307BB /* WaveformIndex.swift in Sources */,
+				22B4AEB3200CC96300F307BB /* WaveformIndexV1.swift in Sources */,
 				22B4C288200B8CE800A5C9EC /* CameraV1MethodType.swift in Sources */,
 				22B4C273200B88F200A5C9EC /* LocationV1MethodType.swift in Sources */,
 				2244AE7E20138BC7006A851C /* PatientV1Method.swift in Sources */,
 				22B4C259200A4C1500A5C9EC /* WaveformProtocolV1.swift in Sources */,
-				2248B5031FA615D300F064A7 /* DeviceTypes.swift in Sources */,
+				2248B5031FA615D300F064A7 /* DeviceType.swift in Sources */,
 				22B1D1012002D22C002A48D5 /* MeasurementV1Notification.swift in Sources */,
 				22B4C27C200B8AA400A5C9EC /* LocationV1WriteValue.swift in Sources */,
 				2244CD881FBC6B2500216EB6 /* MeasurementV1.swift in Sources */,
@@ -675,11 +1047,13 @@
 				22B4C285200B8CCB00A5C9EC /* CameraV1Method.swift in Sources */,
 				22E8E8891FDAA96C00FB937F /* LocationV1.swift in Sources */,
 				22B4C250200A4B3F00A5C9EC /* BloodPressureProtocolV1.swift in Sources */,
+				229F823F2023340F00B1D6AD /* WaveformInterval.swift in Sources */,
 				22B1D1042002D78A002A48D5 /* MeasurementV1DidUpdate.swift in Sources */,
 				22B4C244200A3FDE00A5C9EC /* BloodPressureV1NotificationType.swift in Sources */,
 				22B4C256200A4BF100A5C9EC /* PatientProtocolV1.swift in Sources */,
-				22B4C276200B894400A5C9EC /* MethodV1CodingKeys.swift in Sources */,
+				22B4C276200B894400A5C9EC /* MethodCodingKeysV1.swift in Sources */,
 				2248B5141FA61A3D00F064A7 /* ResourceProtocolType.swift in Sources */,
+				229F82182021EDC300B1D6AD /* WaveformEncoder.swift in Sources */,
 				2244AE7820138B99006A851C /* PatientV1ReadValue.swift in Sources */,
 				22B4C224200936BC00A5C9EC /* NameV1.swift in Sources */,
 				2244CD831FBC690100216EB6 /* WaveformV1.swift in Sources */,
@@ -696,16 +1070,18 @@
 				22B4C22A2009379600A5C9EC /* LocationV1Notification.swift in Sources */,
 				22B4C2212009368800A5C9EC /* PatientInfoV1.swift in Sources */,
 				2248B50B1FA6188B00F064A7 /* ServiceType.swift in Sources */,
+				229F821D2021EE3600B1D6AD /* WaveformDecoder.swift in Sources */,
 				22B4C28B200B8D3B00A5C9EC /* CameraV1ReadProfile.swift in Sources */,
 				22B4C26B200B886800A5C9EC /* CameraProtocolV1.swift in Sources */,
 				22B4C21E2009363B00A5C9EC /* PatientV1DidUpdate.swift in Sources */,
 				22B4C23020093DC000A5C9EC /* BloodPressureV1Notification.swift in Sources */,
+				228F3FE4202F36AB00FB96B3 /* ProtocolType.swift in Sources */,
 				2248B50E1FA618E400F064A7 /* ResourceSubject.swift in Sources */,
 				22AFFFB0200F803E0054B8FF /* UpdateV1.swift in Sources */,
 				22B4C253200A4B9200A5C9EC /* MeasurementProtocolV1.swift in Sources */,
 				2248B5111FA619C100F064A7 /* UnitType.swift in Sources */,
 				22B4C2142009345D00A5C9EC /* WaveformV1DidUpdate.swift in Sources */,
-				22B4C247200A404A00A5C9EC /* NotificationV1CodingKeys.swift in Sources */,
+				22B4C247200A404A00A5C9EC /* NotificationCodingKeysV1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -717,12 +1093,12 @@
 				22B4C21C200935FD00A5C9EC /* PatientV1Notification.swift in Sources */,
 				2244AE7C20138BAE006A851C /* PatientV1WriteValue.swift in Sources */,
 				22B4C290200B8E9E00A5C9EC /* BloodPressureValueV1.swift in Sources */,
-				22B4AEB4200CC96300F307BB /* WaveformIndex.swift in Sources */,
+				22B4AEB4200CC96300F307BB /* WaveformIndexV1.swift in Sources */,
 				22B4C289200B8CE800A5C9EC /* CameraV1MethodType.swift in Sources */,
 				22B4C274200B88F200A5C9EC /* LocationV1MethodType.swift in Sources */,
 				2244AE7F20138BC7006A851C /* PatientV1Method.swift in Sources */,
 				22B4C25A200A4C1500A5C9EC /* WaveformProtocolV1.swift in Sources */,
-				2248B5041FA615D300F064A7 /* DeviceTypes.swift in Sources */,
+				2248B5041FA615D300F064A7 /* DeviceType.swift in Sources */,
 				22B1D1022002D22C002A48D5 /* MeasurementV1Notification.swift in Sources */,
 				22B4C27D200B8AA400A5C9EC /* LocationV1WriteValue.swift in Sources */,
 				2244CD891FBC6B2500216EB6 /* MeasurementV1.swift in Sources */,
@@ -734,11 +1110,13 @@
 				22B4C286200B8CCB00A5C9EC /* CameraV1Method.swift in Sources */,
 				22E8E88A1FDAA96C00FB937F /* LocationV1.swift in Sources */,
 				22B4C251200A4B3F00A5C9EC /* BloodPressureProtocolV1.swift in Sources */,
+				229F82402023340F00B1D6AD /* WaveformInterval.swift in Sources */,
 				22B1D1052002D78A002A48D5 /* MeasurementV1DidUpdate.swift in Sources */,
 				22B4C245200A3FDE00A5C9EC /* BloodPressureV1NotificationType.swift in Sources */,
 				22B4C257200A4BF100A5C9EC /* PatientProtocolV1.swift in Sources */,
-				22B4C277200B894400A5C9EC /* MethodV1CodingKeys.swift in Sources */,
+				22B4C277200B894400A5C9EC /* MethodCodingKeysV1.swift in Sources */,
 				2248B5151FA61A3D00F064A7 /* ResourceProtocolType.swift in Sources */,
+				229F82192021EDC300B1D6AD /* WaveformEncoder.swift in Sources */,
 				2244AE7920138B9E006A851C /* PatientV1ReadValue.swift in Sources */,
 				22B4C225200936BC00A5C9EC /* NameV1.swift in Sources */,
 				2244CD841FBC690100216EB6 /* WaveformV1.swift in Sources */,
@@ -755,22 +1133,78 @@
 				22B4C22B2009379600A5C9EC /* LocationV1Notification.swift in Sources */,
 				22B4C2222009368800A5C9EC /* PatientInfoV1.swift in Sources */,
 				2248B50C1FA6188B00F064A7 /* ServiceType.swift in Sources */,
+				229F821E2021EE3600B1D6AD /* WaveformDecoder.swift in Sources */,
 				22B4C28C200B8D3B00A5C9EC /* CameraV1ReadProfile.swift in Sources */,
 				22B4C26C200B886800A5C9EC /* CameraProtocolV1.swift in Sources */,
 				22B4C21F2009363B00A5C9EC /* PatientV1DidUpdate.swift in Sources */,
 				22B4C23120093DC000A5C9EC /* BloodPressureV1Notification.swift in Sources */,
+				228F3FE5202F36AB00FB96B3 /* ProtocolType.swift in Sources */,
 				2248B50F1FA618E400F064A7 /* ResourceSubject.swift in Sources */,
 				22AFFFB1200F803E0054B8FF /* UpdateV1.swift in Sources */,
 				22B4C254200A4B9200A5C9EC /* MeasurementProtocolV1.swift in Sources */,
 				2248B5121FA619C100F064A7 /* UnitType.swift in Sources */,
 				22B4C2152009345D00A5C9EC /* WaveformV1DidUpdate.swift in Sources */,
-				22B4C248200A404A00A5C9EC /* NotificationV1CodingKeys.swift in Sources */,
+				22B4C248200A404A00A5C9EC /* NotificationCodingKeysV1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BD2F1820274E2D009F6A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223083B0202DCF7600E5A987 /* ImageV1Generator.swift in Sources */,
+				2230834D2029D55500E5A987 /* ImageV1Tests.swift in Sources */,
+				2230835B202B23E700E5A987 /* ResourceProtocolTypeTests.swift in Sources */,
+				223083B7202DD2EB00E5A987 /* NameV1.swift in Sources */,
+				228F3FF4202F5FB500FB96B3 /* ProtocolTypeTests.swift in Sources */,
+				223083542029D99000E5A987 /* DeviceTypeTests.swift in Sources */,
+				223083AD202DCA8A00E5A987 /* NameV1Generator.swift in Sources */,
+				22308381202C75D700E5A987 /* UnitTypeTests.swift in Sources */,
+				223083BA202DD3A100E5A987 /* ImageV1.swift in Sources */,
+				22BD2F3920274F3E009F6A9F /* NameV1Tests.swift in Sources */,
+				2230835E202B257600E5A987 /* ServiceTypeTests.swift in Sources */,
+				223083502029D66F00E5A987 /* PatientInfoV1Tests.swift in Sources */,
+				223083BD202DD94200E5A987 /* OperationTypeTests.swift in Sources */,
+				223083B3202DD19300E5A987 /* PatientInfoV1Generator.swift in Sources */,
+				223083572029DBB700E5A987 /* ResourceSubjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BD2F2920274E4D009F6A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223083B1202DCF7600E5A987 /* ImageV1Generator.swift in Sources */,
+				2230834E2029D55600E5A987 /* ImageV1Tests.swift in Sources */,
+				2230835C202B23E700E5A987 /* ResourceProtocolTypeTests.swift in Sources */,
+				223083B8202DD2EB00E5A987 /* NameV1.swift in Sources */,
+				228F3FF5202F5FB500FB96B3 /* ProtocolTypeTests.swift in Sources */,
+				223083552029D99000E5A987 /* DeviceTypeTests.swift in Sources */,
+				223083AE202DCA8A00E5A987 /* NameV1Generator.swift in Sources */,
+				22308382202C75D700E5A987 /* UnitTypeTests.swift in Sources */,
+				223083BB202DD3A100E5A987 /* ImageV1.swift in Sources */,
+				22BD2F3A20274F3E009F6A9F /* NameV1Tests.swift in Sources */,
+				2230835F202B257600E5A987 /* ServiceTypeTests.swift in Sources */,
+				223083512029D66F00E5A987 /* PatientInfoV1Tests.swift in Sources */,
+				223083BE202DD94200E5A987 /* OperationTypeTests.swift in Sources */,
+				223083B4202DD19300E5A987 /* PatientInfoV1Generator.swift in Sources */,
+				223083582029DBB700E5A987 /* ResourceSubjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2230831D2028846F00E5A987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SecurityKit iOS";
+			targetProxy = 2230831C2028846F00E5A987 /* PBXContainerItemProxy */;
+		};
+		2230831F2028847500E5A987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SecurityKit macOS";
+			targetProxy = 2230831E2028847500E5A987 /* PBXContainerItemProxy */;
+		};
 		2248B5071FA6182000F064A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MedKitCore macOS";
@@ -780,6 +1214,16 @@
 			isa = PBXTargetDependency;
 			name = "MedKitCore iOS";
 			targetProxy = 2248B5081FA6182400F064A7 /* PBXContainerItemProxy */;
+		};
+		22BD2F2320274E2E009F6A9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 223FB62C1FA614900008C944 /* MedKitAssignedNumbers iOS */;
+			targetProxy = 22BD2F2220274E2E009F6A9F /* PBXContainerItemProxy */;
+		};
+		22BD2F3420274E4D009F6A9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2248B4F91FA615B300F064A7 /* MedKitAssignedNumbers macOS */;
+			targetProxy = 22BD2F3320274E4D009F6A9F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -798,6 +1242,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -805,6 +1250,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -815,7 +1261,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 50;
+				CURRENT_PROJECT_VERSION = 52;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -858,6 +1304,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -865,6 +1312,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -875,7 +1323,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 50;
+				CURRENT_PROJECT_VERSION = 52;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -906,7 +1354,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 50;
+				DYLIB_CURRENT_VERSION = 52;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "MedKitAssignedNumbers iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -930,7 +1378,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 50;
+				DYLIB_CURRENT_VERSION = 52;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "MedKitAssignedNumbers iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -954,7 +1402,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 50;
+				DYLIB_CURRENT_VERSION = 52;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "MedKitAssignedNumbers macOS/Info.plist";
@@ -980,7 +1428,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 50;
+				DYLIB_CURRENT_VERSION = 52;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "MedKitAssignedNumbers macOS/Info.plist";
@@ -991,6 +1439,80 @@
 				PRODUCT_NAME = MedKitAssignedNumbers;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		22BD2F2420274E2E009F6A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "MedKitAssignedNumbers iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Private.MedKitAssignedNumbers-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22BD2F2520274E2E009F6A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "MedKitAssignedNumbers iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Private.MedKitAssignedNumbers-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22BD2F3620274E4D009F6A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "MedKitAssignedNumbersTests macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "Private.MedKitAssignedNumbersTests-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		22BD2F3720274E4D009F6A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "MedKitAssignedNumbersTests macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "Private.MedKitAssignedNumbersTests-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -1021,6 +1543,24 @@
 			buildConfigurations = (
 				2248B5001FA615B300F064A7 /* Debug */,
 				2248B5011FA615B300F064A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BD2F2820274E2E009F6A9F /* Build configuration list for PBXNativeTarget "MedKitAssignedNumbers iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BD2F2420274E2E009F6A9F /* Debug */,
+				22BD2F2520274E2E009F6A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BD2F3520274E4D009F6A9F /* Build configuration list for PBXNativeTarget "MedKitAssignedNumbers macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BD2F3620274E4D009F6A9F /* Debug */,
+				22BD2F3720274E4D009F6A9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

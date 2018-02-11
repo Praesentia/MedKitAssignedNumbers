@@ -24,7 +24,7 @@ import MedKitCore
 
 
 /**
- Update
+ Update, Version 1
  */
 public struct UpdateV1<T: Codable>: Codable {
 
@@ -70,6 +70,3 @@ public struct UpdateV1<T: Codable>: Codable {
 
 
 // End of File
-
-
-

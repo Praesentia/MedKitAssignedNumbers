@@ -1,6 +1,6 @@
 /*
  -----------------------------------------------------------------------------
- This source file is part of MedKitAssignedNumbers.
+ This source file is part of ge9WEm!p.
 
  Copyright 2017-2018 Jon Griffeth
 
@@ -23,10 +23,15 @@ import Foundation
 import MedKitCore
 
 
+/**
+ Camera Profile, Version 1
+
+ Experimental
+ */
 public struct CameraProfileV1: Codable {
 
     // MARK: - Properties
-    public var description  : String?
+    public var description: String?
 
     // MARK: - Private
     private enum CodingKeys: CodingKey {
@@ -44,14 +49,12 @@ public struct CameraProfileV1: Codable {
     public init(from decoder: Decoder) throws
     {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-
-        description = try container.decodeIfPresent(String.self,            forKey: .description)
+        description = try container.decodeIfPresent(String.self, forKey: .description)
     }
 
     public func encode(to encoder: Encoder) throws
     {
         var container = encoder.container(keyedBy: CodingKeys.self)
-
         try container.encodeIfPresent(description, forKey: .description)
     }
 
@@ -59,7 +62,3 @@ public struct CameraProfileV1: Codable {
 
 
 // End of File
-
-
-
-

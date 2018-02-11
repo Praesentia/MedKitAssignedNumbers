@@ -22,6 +22,9 @@
 import Foundation
 
 
+/**
+ Camera Protocol, Version 1
+ */
 public struct CameraProtocolV1 {
 
 }

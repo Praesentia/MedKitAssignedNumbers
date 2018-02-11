@@ -25,14 +25,14 @@ import MedKitCore
 
 public struct WaveformV1DidUpdate: WaveformV1Notification {
 
-    public typealias Args = WaveformV1<Int16>
+    public typealias Args = WaveformV1
 
     // MARK: - Properties
     public var type : WaveformV1NotificationType { return .didUpdate }
     public let args : Args
 
     // MARK: - Private
-    private typealias CodingKeys = NotificationV1CodingKeys
+    private typealias CodingKeys = NotificationCodingKeysV1
 
     // MARK: - Initializers
 

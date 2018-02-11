@@ -7,8 +7,8 @@ communication with medical devices.
 
 MedKitAssignedNumbers is one of a number of MedKit modules which include: MedKit,
 MedKitCore, MedKitDomain, MedKitMIP, SecurityKitAOS and SecurityKit.
-MedKitAssignedNumbers serves as a database for information associated with various
-assigned numbers.
+MedKitAssignedNumbers codifies various identifiers and protocols necessary for device
+interoperability.
 
 ## Prerequisites
 

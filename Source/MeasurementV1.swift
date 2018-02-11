@@ -24,11 +24,13 @@ import MedKitCore
 
 
 /**
- Measurement
+ Measurement, Version 1
+
+ An abstract structure used to represent a single measurement.
  */
 public struct MeasurementV1<T: Codable>: Codable {
 
-    public typealias Value = T
+    public typealias Value = T  //: Value type.
 
     // MARK: - Properties
     public var value : Value    //: Measurement value.
@@ -75,5 +77,3 @@ public struct MeasurementV1<T: Codable>: Codable {
 
 
 // End of File
-
-

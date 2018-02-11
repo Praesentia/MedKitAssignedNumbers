@@ -1,6 +1,6 @@
 /*
  -----------------------------------------------------------------------------
- This source file is part of MedKitDomain.
+ This source file is part of MedKitAssignedNumbers.
 
  Copyright 2017-2018 Jon Griffeth
 
@@ -23,8 +23,9 @@ import Foundation
 import MedKitCore
 
 
-public typealias DeviceInfoV1 = MedKitCore.DeviceInfo
-
+/**
+ Basic patient profile, Version 1
+ */
 public struct PatientProfileV1: Codable
 {
     public typealias PatientInfo = PatientInfoV1
@@ -67,6 +68,8 @@ public struct PatientProfileV1: Codable
     }
 
 }
+
+public typealias DeviceInfoV1 = MedKitCore.DeviceInfo
 
 
 // End of File

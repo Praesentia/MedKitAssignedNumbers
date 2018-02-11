@@ -23,6 +23,9 @@ import Foundation
 import MedKitCore
 
 
+/**
+ Location, Version 1
+ */
 public struct LocationV1: Codable {
 
     // MARK: - Properties
@@ -69,6 +72,3 @@ public struct LocationV1: Codable {
 
 
 // End of File
-
-
-

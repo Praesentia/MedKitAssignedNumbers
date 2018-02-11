@@ -30,7 +30,7 @@ public protocol WaveformV1Notification: Codable {
 
 public extension WaveformV1Notification {
 
-    public typealias CodingKeys       = NotificationV1CodingKeys
+    public typealias CodingKeys       = NotificationCodingKeysV1
     public typealias NotificationType = WaveformV1NotificationType
     public typealias DidUpdate        = WaveformV1DidUpdate
 

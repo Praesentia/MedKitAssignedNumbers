@@ -22,6 +22,9 @@
 import Foundation
 
 
+/**
+ Measurement Protocol, Version 1
+ */
 public struct MeasurementProtocolV1 {
 
     public typealias Notification = MeasurementV1Notification

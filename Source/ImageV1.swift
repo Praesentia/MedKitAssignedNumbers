@@ -1,6 +1,6 @@
 /*
  -----------------------------------------------------------------------------
- This source file is part of MedKitDomain.
+ This source file is part of MedKitAssignedNumbers.
 
  Copyright 2016-2018 Jon Griffeth
 
@@ -24,7 +24,7 @@ import MedKitCore
 
 
 /**
- Image
+ Image, Version 1
 
  An image representation, consisting of either a symbolic name or the actual
  image data.
@@ -95,7 +95,7 @@ public class ImageV1: Codable {
      */
     public convenience init?(fromBase64 base64: String)
     {
-        let data = NSData(base64Encoded: base64) as Data?
+        let data = Data(base64Encoded: base64)
 
         if data != nil {
             self.init(data: data!)
@@ -115,7 +115,7 @@ public class ImageV1: Codable {
         switch type {
         case .data :
             let base64 = try container.decode(String.self, forKey: .value)
-            data = NSData(base64Encoded: base64) as Data?
+            data = try Data(base64: base64)
             name = nil
 
         case .symbolic :
@@ -142,4 +142,3 @@ public class ImageV1: Codable {
 
 
 // End of File
-

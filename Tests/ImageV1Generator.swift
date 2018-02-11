@@ -2,7 +2,7 @@
  -----------------------------------------------------------------------------
  This source file is part of MedKitAssignedNumbers.
 
- Copyright 2017-2018 Jon Griffeth
+ Copyright 2018 Jon Griffeth
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -20,11 +20,40 @@
 
 
 import Foundation
+import MedKitAssignedNumbers
 
 
-public enum MethodV1CodingKeys: CodingKey {
-    case type
-    case args
+/**
+ Placeholder
+ */
+class ImageV1Generator {
+
+    typealias Value    = ImageV1
+    typealias Iterator = AnyIterator<Value>
+
+    private var count: Int = 0
+
+    init()
+    {
+    }
+
+    func iterator() -> Iterator
+    {
+        return Iterator { self.next() }
+    }
+
+    private func next() -> Value?
+    {
+        var value: Value!
+
+        count += 1;
+        if (count == 1) {
+            value = ImageV1(named: "Foo")
+        }
+
+        return value
+    }
+
 }
 
 

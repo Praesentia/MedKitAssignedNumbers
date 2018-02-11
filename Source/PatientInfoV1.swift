@@ -1,6 +1,6 @@
 /*
  -----------------------------------------------------------------------------
- This source file is part of MedKitDomain.
+ This source file is part of MedKitAssignedNumbers.
 
  Copyright 2017-2018 Jon Griffeth
 
@@ -22,13 +22,16 @@
 import Foundation
 
 
+/**
+ Basic patient information, Version 1
+ */
 public struct PatientInfoV1: Codable {
 
     // MARK: - Properties
-    public let birthdate  : Date?
-    public let identifier : String
-    public let name       : NameV1
-    public let photo      : ImageV1?
+    public var birthdate  : Date?
+    public var identifier : String
+    public var name       : NameV1
+    public var photo      : ImageV1?
 
     // MARK: - Private
     private enum CodingKeys: CodingKey {
@@ -40,7 +43,13 @@ public struct PatientInfoV1: Codable {
 
     // MARK: - Initializers
 
-    init(identifier: String, name: NameV1)
+    /**
+     Initialize instance.
+
+     - Parameters:
+        - identifier:
+     */
+    public init(identifier: String, name: NameV1)
     {
         self.birthdate  = nil
         self.identifier = identifier
@@ -50,6 +59,12 @@ public struct PatientInfoV1: Codable {
 
     // MARK: - Codable
 
+    /**
+     Decode
+
+     - Parameters:
+        - decoder:
+     */
     public init(from decoder: Decoder) throws
     {
         let container = try decoder.container(keyedBy: CodingKeys.self)
@@ -66,6 +81,12 @@ public struct PatientInfoV1: Codable {
         photo      = try container.decodeIfPresent(ImageV1.self, forKey: .photo)
     }
 
+    /**
+     Encode
+
+     - Parameters:
+        - encoder:
+     */
     public func encode(to encoder: Encoder) throws
     {
         var container = encoder.container(keyedBy: CodingKeys.self)

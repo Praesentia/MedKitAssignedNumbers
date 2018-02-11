@@ -30,7 +30,7 @@ public protocol PatientV1Method: Codable {
 
 public extension PatientV1Method {
 
-    public typealias CodingKeys = MethodV1CodingKeys
+    public typealias CodingKeys = MethodCodingKeysV1
     public typealias MethodType = PatientV1MethodType
     public typealias ReadValue  = PatientV1ReadValue
     public typealias WriteValue = PatientV1WriteValue

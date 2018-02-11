@@ -22,6 +22,9 @@
 import Foundation
 
 
+/**
+ Patient Protocol, Version 1
+ */
 public struct PatientProtocolV1 {
 
     public typealias Method       = PatientV1Method

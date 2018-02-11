@@ -33,7 +33,7 @@ public struct LocationV1WriteValue: LocationV1Method {
     public let args : Args
 
     // MARK: - Private
-    private typealias CodingKeys = MethodV1CodingKeys
+    private typealias CodingKeys = MethodCodingKeysV1
 
     // MARK: - Initializers
 

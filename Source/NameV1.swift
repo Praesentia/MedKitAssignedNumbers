@@ -1,6 +1,6 @@
 /*
  -----------------------------------------------------------------------------
- This source file is part of MedKitDomain.
+ This source file is part of MedKitAssignedNumbers.
 
  Copyright 2016-2018 Jon Griffeth
 
@@ -24,7 +24,9 @@ import MedKitCore
 
 
 /**
- Patient name.
+ Person's Name, Version 1
+
+ @todo: Use locale.
  */
 public struct NameV1: Codable {
 
@@ -37,14 +39,26 @@ public struct NameV1: Codable {
     }
 
     // MARK: - Properties
+
+    /**
+     Default format.
+
+     An class level property that may be used to control the default format.
+     */
     public static var defaultFormat : Format = .firstLast
 
-    public var first     : String?
-    public var last      : String?
-    public var formatted : String { return format() }
+    public var first : String?
+    public var last  : String?
+
+    /**
+     Formatted string.
+
+     A string representation of the name structure for the current default
+     formatting option.
+     */
+    public var formatted: String { return format() }
 
     // MARK: - Private
-
     private enum CodingKeys: CodingKey {
         case first
         case last
@@ -79,6 +93,12 @@ public struct NameV1: Codable {
 
     // MARK: - Formatting
 
+    /**
+     Format string.
+
+     Composes a string representation of the name structure using the specified
+     formatting option.
+     */
     public func format(format: Format = NameV1.defaultFormat) -> String
     {
         switch format {
@@ -94,4 +114,3 @@ public struct NameV1: Codable {
 
 
 // End of File
-

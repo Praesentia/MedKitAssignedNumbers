@@ -31,7 +31,7 @@ public struct CameraV1ReadProfile: CameraV1Method {
     public var type: CameraV1MethodType { return .readProfile }
 
     // MARK: - Private
-    private typealias CodingKeys = MethodV1CodingKeys
+    private typealias CodingKeys = MethodCodingKeysV1
 
     // MARK: - Initializers
 

@@ -30,7 +30,7 @@ public protocol LocationV1Notification: Codable {
 
 public extension LocationV1Notification {
 
-    public typealias CodingKeys       = NotificationV1CodingKeys
+    public typealias CodingKeys       = NotificationCodingKeysV1
     public typealias NotificationType = LocationV1NotificationType
     public typealias DidUpdate        = LocationV1DidUpdate
 

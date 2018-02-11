@@ -30,7 +30,7 @@ public protocol MeasurementV1Notification: Codable {
 
 public extension MeasurementV1Notification {
 
-    public typealias CodingKeys       = NotificationV1CodingKeys
+    public typealias CodingKeys       = NotificationCodingKeysV1
     public typealias NotificationType = MeasurementV1NotificationType
     public typealias DidUpdate        = MeasurementV1DidUpdate
 

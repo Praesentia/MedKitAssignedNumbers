@@ -30,7 +30,7 @@ public protocol CameraV1Method: Codable {
 
 public extension CameraV1Method {
 
-    public typealias CodingKeys  = MethodV1CodingKeys
+    public typealias CodingKeys  = MethodCodingKeysV1
     public typealias MethodType  = CameraV1MethodType
     public typealias ReadProfile = CameraV1ReadProfile
 

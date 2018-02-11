@@ -20,33 +20,16 @@
 
 
 import Foundation
-import MedKitCore
 
 
-public typealias WaveformIndex = Int64
+/**
+ Method Coding Keys, Version 1
 
-public extension WaveformIndex {
-
-    public init(time: Time, resolution: Int64)
-    {
-        self = time / (Time.resolution / resolution)
-    }
-
-    public init(timeInterval: TimeInterval, resolution: Int64)
-    {
-        self = Time(timeInterval: timeInterval) / (Time.resolution / resolution)
-    }
-
-    public func time(resolution: Int64) -> Time
-    {
-        return Time(self * (Time.resolution / resolution))
-    }
-
-    public func timeInterval(resolution: Int64) -> TimeInterval
-    {
-        return time(resolution: resolution).timeInterval
-    }
-
+ Coding keys common to all protocol methods.
+ */
+public enum MethodCodingKeysV1: CodingKey {
+    case type
+    case args
 }
 
 

@@ -23,13 +23,16 @@ import Foundation
 import MedKitCore
 
 
+/**
+ Blood Pressure Value, Version 1
+ */
 public struct BloodPressureValueV1<T: Numeric & Codable>: Codable {
 
     // MARK: - Properties
     public var systolic  : T
     public var diastolic : T
 
-    // MARK: - Proivate
+    // MARK: - Private
     private enum CodingKeys: CodingKey {
         case systolic
         case diastolic
@@ -37,6 +40,13 @@ public struct BloodPressureValueV1<T: Numeric & Codable>: Codable {
 
     // MARK: - Initializers
 
+    /**
+     Initialize instance.
+
+     - Parameters:
+        - systolic:
+        - diastolic:
+     */
     public init(systolic: T, diastolic: T)
     {
         self.systolic  = systolic
@@ -65,7 +75,3 @@ public struct BloodPressureValueV1<T: Numeric & Codable>: Codable {
 
 
 // End of File
-
-
-
-

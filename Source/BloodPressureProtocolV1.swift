@@ -22,6 +22,9 @@
 import Foundation
 
 
+/**
+ Blood Pressure Protocol, Version 1
+ */
 public struct BloodPressureProtocolV1 {
 
     public typealias Notification = BloodPressureV1Notification

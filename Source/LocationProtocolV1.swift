@@ -22,6 +22,9 @@
 import Foundation
 
 
+/**
+ Location Protocol, Version 1
+ */
 public struct LocationProtocolV1 {
 
     public typealias Method       = LocationV1Method

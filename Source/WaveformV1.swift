@@ -23,92 +23,69 @@ import Foundation
 import MedKitCore
 
 
-public struct WaveformV1<T: FixedWidthInteger>: Codable {
+/**
+ Waveform, Version 1
+ */
+public struct WaveformV1: WaveformInterval, Codable {
+
+    public enum Encoding: Int, Codable {
+        case int16Coded
+        case int32Coded
+    }
 
     // MARK: - Properties
-    public typealias Sample = Float
-    public typealias Index  = WaveformIndex
-
-    public let index   : Index
-    public let samples : [Sample]
-    public let units   : UnitType
-    public let scale   : Sample = 0.01
+    public var encoding : Encoding = .int16Coded
+    public var index    : Index
+    public var samples  : [Sample]
+    public var units    : UnitType
+    public var scale    : Sample = 1.0 / 128.0
 
     // MARK: - Private
     private enum CodingKeys: CodingKey {
+        case encoding
         case index
         case samples
         case units
     }
 
-    private let maxValue : Sample
-    private let minValue : Sample
-
     // MARK: - Initializers
 
     public init(index: Index, samples: [Sample], units: UnitType)
     {
-        self.index       = index
-        self.samples     = samples
-        self.maxValue    = Sample(Int(T.max)) * scale
-        self.minValue    = Sample(Int(T.min)) * scale
-        self.units       = units
+        self.encoding = .int16Coded
+        self.index    = index
+        self.samples  = samples
+        self.units    = units
     }
 
     // MARK: - Codable
 
     public init(from decoder: Decoder) throws
     {
+        let wdecoder  = WaveformDecoder(scale: scale)
         let container = try decoder.container(keyedBy: CodingKeys.self)
         let base64    = try container.decode(String.self, forKey: .samples)
 
-        maxValue    = Sample(Int(T.max)) * scale
-        minValue    = Sample(Int(T.min)) * scale
-        index       = try container.decode(Index.self, forKey: .index)
-        samples     = try WaveformV1<T>.decode(base64Encoded: base64, scale: scale)
+        encoding    = try container.decode(Encoding.self, forKey: .encoding)
+        index       = try container.decode(Index.self,    forKey: .index)
+        samples     = try wdecoder.decode(from: base64)
         units       = try container.decode(UnitType.self, forKey: .units)
     }
 
     public func encode(to encoder: Encoder) throws
     {
+        let wencoder  = WaveformEncoder(scale: scale)
         var container = encoder.container(keyedBy: CodingKeys.self)
-        let base64    = try encode(data: samples, scale: scale)
+        let base64    = try wencoder.encode(data: samples).base64EncodedString()
 
-        try container.encode(index,  forKey: .index)
-        try container.encode(base64, forKey: .samples)
-        try container.encode(units,  forKey: .units)
-    }
+        try container.encode(encoding, forKey: .encoding)
+        try container.encode(index,    forKey: .index)
+        try container.encode(base64,   forKey: .samples)
+        try container.encode(units,    forKey: .units)
 
-    // MARK: - Private
-
-    private func isInRange(_ value: Sample) -> Bool
-    {
-        return (value >= minValue) && (value <= maxValue)
-    }
-
-    private static func decode(base64Encoded string: String, scale: Sample) throws -> [Sample]
-    {
-        var bytes = Data(base64Encoded: string)!
-
-        let fixedWidthIntegers = bytes.withUnsafeBytes { Array(UnsafeBufferPointer<T>(start: $0, count: bytes.count / MemoryLayout<T>.size)) }
-        let data               = fixedWidthIntegers.map { Sample(Int(bigEndian: Int($0))) * scale }
-
-        return data
-    }
-
-    private func encode(data: [Sample], scale: Sample) throws -> String
-    {
-        let fixedWidthIntegers : [T] = data.map { T($0 / scale).bigEndian }
-
-        // convert to bytes
-        let count = fixedWidthIntegers.count * MemoryLayout<T>.size
-        let data  = Data(bytes: UnsafePointer(fixedWidthIntegers), count: count)
-
-        return data.base64EncodedString()
     }
 
 }
 
 
 // End of File
-

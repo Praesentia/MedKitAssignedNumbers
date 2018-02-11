@@ -30,7 +30,7 @@ public protocol LocationV1Method: Codable {
 
 public extension LocationV1Method {
 
-    public typealias CodingKeys = MethodV1CodingKeys
+    public typealias CodingKeys = MethodCodingKeysV1
     public typealias MethodType = LocationV1MethodType
     public typealias ReadValue  = LocationV1ReadValue
     public typealias WriteValue = LocationV1WriteValue

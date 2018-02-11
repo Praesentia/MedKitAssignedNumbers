@@ -32,7 +32,7 @@ public struct MeasurementV1DidUpdate: MeasurementV1Notification {
     public let args : Args
 
     // MARK: - Private
-    private typealias CodingKeys = NotificationV1CodingKeys
+    private typealias CodingKeys = NotificationCodingKeysV1
 
     // MARK: - Initializers
 

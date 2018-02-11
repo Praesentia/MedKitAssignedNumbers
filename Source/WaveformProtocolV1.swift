@@ -22,10 +22,13 @@
 import Foundation
 
 
+/**
+ Waveform Protocol, Version 1
+ */
 public struct WaveformProtocolV1 {
 
     public typealias Notification = WaveformV1Notification
-    public typealias Waveform     = WaveformV1<Int16>
+    public typealias Waveform     = WaveformV1
 
 }
 

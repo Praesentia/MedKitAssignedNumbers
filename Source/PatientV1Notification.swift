@@ -30,7 +30,7 @@ public protocol PatientV1Notification: Codable {
 
 public extension PatientV1Notification {
 
-    public typealias CodingKeys       = NotificationV1CodingKeys
+    public typealias CodingKeys       = NotificationCodingKeysV1
     public typealias NotificationType = PatientV1NotificationType
     public typealias DidUpdate        = PatientV1DidUpdate
 
